@@ -1,4 +1,4 @@
-Please visit [my personal website](https://haotian-zhang.github.io/) for more details.
+Please visit [my personal website](https://haotian-zhang.github.io/personal_website) for more details.
 
 --------------------
 # [Hugo Academic Theme](https://github.com/wowchemy/starter-hugo-academic)
