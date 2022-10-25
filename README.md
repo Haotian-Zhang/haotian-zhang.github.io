@@ -1,3 +1,6 @@
+Please visit [my personal website](https://haotian-zhang.github.io/) for more details.
+
+--------------------
 # [Hugo Academic Theme](https://github.com/wowchemy/starter-hugo-academic)
 
 [![Screenshot](./preview.png)](https://wowchemy.com/hugo-themes/)
