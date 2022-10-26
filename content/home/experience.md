@@ -61,7 +61,7 @@ experience:
     #   * Modelling
     #   * Deploying
 
-  - title: PhD Research Assistant
+  - title: Research Ph.D. student
     company: University of Washington
     company_url: 'https://www.ece.uw.edu/'
     company_logo: org-uw
