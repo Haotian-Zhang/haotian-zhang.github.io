@@ -26,7 +26,7 @@ interests:
   - Vision-and-Language Pre-training
   - Large-scaled Pre-trained Models
   - 3D Monocular Object Detection
-  - Multi-object Tracking
+  - 2D/3D Multi-object Tracking
 
 # Education to show in About widget
 education:
