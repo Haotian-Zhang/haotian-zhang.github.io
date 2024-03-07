@@ -1,4 +1,7 @@
-**[10/2023]** One Paper is accepted to WACV 2024: UDA(Empowering Unsupervised Domain Adaptation with Large-scale Pre-trained Vision-Language Models). 
+**[03/2024]** 🎉 We release the checkpoints [here](https://github.com/apple/ml-veclip) for [veCLIP](https://arxiv.org/abs/2310.07699), which achieves 83.07% on IN1K zero-shot.
+**[02/2024]** A new preprint "How Easy is It to Fool Your Multimodal LLMs? An Empirical Analysis on Deceptive Prompts" is now available [here](https://arxiv.org/abs/2402.13220) on Arxiv. 
+**[02/2024]** 🎉 [Ferret](https://arxiv.org/abs/2310.07704) is accepted to ICLR 2024 as Spotlight (5% Acceptance Rate).
+**[10/2023]** One Paper is accepted to WACV 2024: UDA (Empowering Unsupervised Domain Adaptation with Large-scale Pre-trained Vision-Language Models). 
 **[09/2023]** A summary of my recent papers: (1) a new multimodal LLM that can refer and ground anything anywhere at any granularity [Ferret](https://arxiv.org/abs/2310.07704). (2) using LLM and multimodal LLM for alt-text re-writing to improve CLIP training [veCLIP](https://arxiv.org/abs/2310.07699).
 **[10/2022]** Serving as session co-chair for ECCV CVinW Workshop and being responsible for ODinW. Full schedule here: https://computer-vision-in-the-wild.github.io/eccv-2022/. 
 **[10/2022]** Selected as one of the Young Scholar Award recipients for NeurIPS 2022. 
