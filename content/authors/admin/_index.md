@@ -10,23 +10,23 @@ last_name: Zhang
 superuser: true
 
 # Role/position/tagline
-role: Research Scientist at Apple <br /> Former Research Intern at MSR AI <br /> Ph.D. at University of Washington
+role: Research Scientist at NVIDIA <br /> Former Research Scientist at Apple AI/ML Foundation Model <br /> Ph.D. at University of Washington
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Apple AI/ML
-    url: https://machinelearning.apple.com/
+  - name: NVIDIA Cosmos Lab
+    url: https://research.nvidia.com/labs/cosmos-lab/
 
 # Short bio (displayed in user profile at end of posts)
-bio: His research aims to design sensible modules that learn the effective representation of information from vision and language.
+bio: His research focuses on large-scale multimodal pre-training, multimodal large language models, and world foundation models.
 
 # Interests to show in About widget
 interests:
-  - Open-Vocabulary Object Detection
-  - Vision-and-Language Pre-training
-  - Large-scaled Pre-trained Models
-  - 3D Monocular Object Detection
-  - 2D/3D Multi-object Tracking
+  - Large-scale Multimodal Pre-training
+  - Multimodal Large Language Models (MLLMs)
+  - World Foundation Models
+  - Vision-Language Understanding
+  - Grounded Visual Understanding
 
 # Education to show in About widget
 education:
@@ -85,9 +85,9 @@ highlight_name: true
 
 "Be Boundless."
 
-Haotian Zhang is a Research Scientist at [Apple AI/ML, Visual Intelligence](https://machinelearning.apple.com/research?page=1&domain=Computer+Vision). His research aims to enable embodied agents to understand the outside world. To that end, he works on designing sensible modules that learn the effective representation of information from 2D/3D image data, as well as natural language. His recent work on [GLIP&GLIPv2](https://www.microsoft.com/en-us/research/project/project-florence-vl/articles/object-detection-in-the-wild-via-grounded-language-image-pre-training/) has been accepted to the CVPR 2022 (Best Paper Finalist), and NeurIPS 2022. He also co-organized the ECCV 2022 workshop on Computer Vision in the Wild.
+Haotian Zhang is a Staff Research Scientist at [NVIDIA Cosmos Lab](https://research.nvidia.com/labs/cosmos-lab/), working on world foundation models for Physical AI. Previously, he was a Senior Research Scientist at [Apple AI/ML](https://machinelearning.apple.com/), where he led efforts on multimodal large language models including [MM1](https://arxiv.org/abs/2403.09611) (ECCV 2024), [MM1.5](https://arxiv.org/abs/2409.20566) (ICLR 2025), [Ferret-v2](https://arxiv.org/abs/2404.07973) (COLM 2024), and [Ferret-UI](https://arxiv.org/abs/2404.05719) (ECCV 2024). His earlier work on [GLIP&GLIPv2](https://www.microsoft.com/en-us/research/project/project-florence-vl/articles/object-detection-in-the-wild-via-grounded-language-image-pre-training/) at Microsoft Research was accepted to CVPR 2022 (Best Paper Finalist) and NeurIPS 2022. He also co-organized the ECCV 2022 workshop on Computer Vision in the Wild.
 
-Prior to joining Apple, he obtained his Ph.D. in the [Information Processing Lab](https://ipl-uw.github.io/) at [University of Washington](https://www.washington.edu/), advised by Prof. [Jenq-Neng Hwang](https://people.ece.uw.edu/hwang/), where he focused on monocular 3D object detection and multi-object tracking. He received his B.S. degree at Shanghai Jiao Tong University in 2017, supervised by Prof. [Jun-Fa Mao](https://en.wikipedia.org/wiki/Mao_Junfa).
+He obtained his Ph.D. in the [Information Processing Lab](https://ipl-uw.github.io/) at [University of Washington](https://www.washington.edu/), advised by Prof. [Jenq-Neng Hwang](https://people.ece.uw.edu/hwang/). He received his B.S. degree at Shanghai Jiao Tong University in 2017, supervised by Prof. [Jun-Fa Mao](https://en.wikipedia.org/wiki/Mao_Junfa).
 
 <span style="color:orange">He believes that living an interesting life is done by doing interesting things with interesting people, and that’s what he hopes to do :fire:.</span>
 

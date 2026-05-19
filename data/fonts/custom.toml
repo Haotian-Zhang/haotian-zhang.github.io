@@ -1,0 +1,11 @@
+# Custom Font Theme
+name = "Custom"
+
+# Google Fonts URL
+google_fonts = "family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+
+# Font families
+heading_font = "Inter"
+body_font = "Inter"
+nav_font = "Inter"
+mono_font = "JetBrains Mono"

@@ -25,15 +25,25 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
-  - title: Research Scientist, Visual Intelligence
-    company: Apple AI/ML
-    company_url: 'https://machinelearning.apple.com/'
-    company_logo: org-apple
-    location: Cuppertino, California
-    date_start: '2023-01-09'
+  - title: Staff Research Scientist, Cosmos
+    company: NVIDIA
+    company_url: 'https://research.nvidia.com/labs/cosmos-lab/'
+    company_logo: org-nvidia
+    location: Santa Clara, California
+    date_start: '2026-01-05'
     date_end: ''
     description: |2-
-      Research scientist @ Visual Intelligence Team, directed by [Yinfei Yang](https://sites.google.com/site/yinfeiyang/). I will continue pushing the boundary of CV (OD) and Multi-modal intelligence on my new position with this great team.
+      Staff Research Scientist @ [Cosmos Lab](https://research.nvidia.com/labs/cosmos-lab/), working on world foundation models for Physical AI.
+
+  - title: Senior Research Scientist, AI/ML Foundation Model
+    company: Apple
+    company_url: 'https://machinelearning.apple.com/'
+    company_logo: org-apple
+    location: Cupertino, California
+    date_start: '2023-01-09'
+    date_end: '2025-12-31'
+    description: |2-
+      Senior Research Scientist @ Apple AI/ML Foundation Model team. Led research on multimodal large language models including [MM1](https://arxiv.org/abs/2403.09611) (ECCV 2024), [MM1.5](https://arxiv.org/abs/2409.20566) (ICLR 2025), [Ferret-v2](https://arxiv.org/abs/2404.07973) (COLM 2024), and [Ferret-UI](https://arxiv.org/abs/2404.05719) (ECCV 2024).
 
   - title: Research Intern, Deep Learning
     company: Microsoft Research
@@ -73,7 +83,7 @@ experience:
     company_logo: org-uw
     location: Seattle, Washington
     date_start: '2017-09-01'
-    date_end: ''
+    date_end: '2022-12-01'
     description: |2-
       Ph.D. student @ [Information Processing Lab](https://ipl-uw.github.io/), supervised by Prof. [Jenq-Neng Hwang](https://people.ece.uw.edu/hwang/). <span style="color:gold"> "A teacher for a day is a father for a lifetime." :man_teacher: </span>
     

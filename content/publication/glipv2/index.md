@@ -34,8 +34,8 @@ publishDate: '2022-01-01T00:00:00Z'
 publication_types: ['1']
 
 # Publication name and optional abbreviated publication name.
-publication: In *Thirty-sixth Conference on Neural Information Processing Systems*
-publication_short: In *NeurIPS 2022*
+publication: In *Thirty-seventh Conference on Neural Information Processing Systems*
+publication_short: In *NeurIPS 2023*
 
 abstract: 'We present GLIPv2, a grounded VL understanding model, that serves both localization tasks (e.g., object detection, instance segmentation) and Vision-Language (VL) understanding tasks (e.g., VQA, image captioning). GLIPv2 elegantly unifies localization pre-training and Vision-Language Pre-training (VLP) with three pre-training tasks: phrase grounding as a VL reformulation of the detection task, region-word contrastive learning as a novel region-word level contrastive learning task, and the masked language modeling. This unification not only simplifies the previous multi-stage VLP procedure but also achieves mutual benefits between localization and understanding tasks. Experimental results show that a single GLIPv2 model (all model weights are shared) achieves near SoTA performance on various localization and understanding tasks. The model also shows (1) strong zero-shot and few-shot adaption performance on open-vocabulary object detection tasks and (2) superior grounding capability on VL understanding tasks.'
 

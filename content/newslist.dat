@@ -1,13 +1,12 @@
+**[01/2026]** Joined [NVIDIA Cosmos Lab](https://research.nvidia.com/labs/cosmos-lab/) as a Staff Research Scientist, working on world foundation models for Physical AI.
+**[04/2025]** [MANZANO](https://arxiv.org/abs/2509.16197) is accepted to ICLR 2026. A simple and scalable unified multimodal model with a hybrid vision tokenizer.
+**[01/2025]** [Cosmos World Foundation Model Platform](https://arxiv.org/abs/2501.03575) is released — a comprehensive platform for building world foundation models.
+**[10/2024]** Three papers accepted to ICLR 2025: [MM1.5](https://arxiv.org/abs/2409.20566), [MM-Ego](https://arxiv.org/abs/2410.07177), and [Ferret-UI 2](https://arxiv.org/abs/2410.18967).
+**[07/2024]** Two papers accepted to ECCV 2024: [MM1](https://arxiv.org/abs/2403.09611) and [Ferret-UI](https://arxiv.org/abs/2404.05719).
+**[04/2024]** [Ferret-v2](https://arxiv.org/abs/2404.07973) is accepted to COLM 2024. An improved baseline for referring and grounding with LLMs.
 **[03/2024]** We release the checkpoints [here](https://github.com/apple/ml-veclip) for [veCLIP](https://arxiv.org/abs/2310.07699), which achieves 83.07% on IN1K zero-shot.
-**[02/2024]** A new preprint "How Easy is It to Fool Your Multimodal LLMs? An Empirical Analysis on Deceptive Prompts" is now available [here](https://arxiv.org/abs/2402.13220) on Arxiv. 
 **[02/2024]** [Ferret](https://arxiv.org/abs/2310.07704) is accepted to ICLR 2024 as Spotlight (5% Acceptance Rate).
-**[10/2023]** One Paper is accepted to WACV 2024: UDA (Empowering Unsupervised Domain Adaptation with Large-scale Pre-trained Vision-Language Models). 
-**[09/2023]** A summary of my recent papers: (1) a new multimodal LLM that can refer and ground anything anywhere at any granularity [Ferret](https://arxiv.org/abs/2310.07704). (2) using LLM and multimodal LLM for alt-text re-writing to improve CLIP training [veCLIP](https://arxiv.org/abs/2310.07699).
-**[10/2022]** Serving as session co-chair for ECCV CVinW Workshop and being responsible for ODinW. Full schedule here: https://computer-vision-in-the-wild.github.io/eccv-2022/. 
-**[10/2022]** Selected as one of the Young Scholar Award recipients for NeurIPS 2022. 
-**[09/2022]** One paper accepted to NeurIPS 2022: [GLIPv2](https://arxiv.org/abs/2206.05836). A team effort to push [CVinW](https://computer-vision-in-the-wild.github.io/eccv-2022/)
-**[08/2022]** Updated GLIP [Hugging Face Gradio Demo](https://huggingface.co/spaces/haotiz/glip-zeroshot-demo)! Feel free to check it out!!!
-**[09/2022]** Organizing ECCV Workshop [*Computer Vision in the Wild (CVinW)*](https://computer-vision-in-the-wild.github.io/eccv-2022/), where two challenges [*Image Classification in the Wild (ICinW)*](https://eval.ai/web/challenges/challenge-page/1832/overview) and [*Object Detection in the Wild (ODinW)*](https://eval.ai/web/challenges/challenge-page/1839/overview) are hosted to evaluate the zero-shot, few-shot and full-shot performance of pre-trained vision models.
+**[10/2022]** Selected as one of the Young Scholar Award recipients for NeurIPS 2022.
+**[09/2022]** One paper accepted to NeurIPS 2022: [GLIPv2](https://arxiv.org/abs/2206.05836). A team effort to push [CVinW](https://computer-vision-in-the-wild.github.io/eccv-2022/).
+**[09/2022]** Organizing ECCV Workshop [*Computer Vision in the Wild (CVinW)*](https://computer-vision-in-the-wild.github.io/eccv-2022/), where two challenges [*ICinW*](https://eval.ai/web/challenges/challenge-page/1832/overview) and [*ODinW*](https://eval.ai/web/challenges/challenge-page/1839/overview) are hosted.
 **[03/2022]** One paper accepted to CVPR 2022: [GLIP](https://arxiv.org/abs/2112.03857) as an Oral & Best Paper Finalist.
-**[10/2021]** I am the 🏆winner of Video Track (in both MOTChallenge-STEP and KITTI-STEP dataset) in the <a href="https://motchallenge.net/workshops/bmtt2021/">6th BMTT Challenge</a> (in conjunction with ICCV 2021)!
-**[06/2020]** Our team is the winner of track 3 (multi-object tracking and segmentation in KITTI-MOTS and MOTS20 dataset with public detection) and the runner-up of track 2 (multi-object detection, tracking and segmentation in KITTI-MOTS dataset) in the 5th BMTT Challenge</a> in CVPR 2020 workshop. <a href="https://ipl-uw.github.io/news/2020-06-11-cvpr20-bmtt.html">[Details...]</a>
