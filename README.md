@@ -7,6 +7,7 @@ A small, responsive academic website for [haotian-zhang.github.io](https://haoti
 - `site/data/profile.json`: affiliation, contact links, and last-updated date.
 - `site/data/publications.json`: verified publication metadata, ordered authors, links, summaries, and source references. Set `featured: true` to show a paper on the homepage. `year` is the venue year; `date` is the original publication or submission date at its known precision.
 - `scripts/build.mjs`: homepage biography, news, experience, education, page templates, and static generation.
+- `site/data/service.json`: confirmed area-chair roles, reviewing venues, workshop organization, and selected honors. Keep roles and dates distinct; only add area-chair appointments when confirmed.
 - `site/assets/style.css`: layout, typography, and mobile styles.
 - `site/assets/papers/provenance.json`: attribution and source information for research figures. Figures retain their original authors' rights.
 

@@ -1,0 +1,59 @@
+{
+  "areaChair": [
+    { "conference": "NeurIPS", "year": "2025", "area": "Vision & Language" },
+    { "conference": "AAAI", "year": "2024", "area": "Open-Vocabulary Object Detection" }
+  ],
+  "reviewerConferences": ["ICLR", "CVPR", "ECCV", "ICCV", "NeurIPS", "ICML", "COLM"],
+  "additionalConferences": ["ACL ARR", "AAAI", "WACV", "ICRA", "IROS"],
+  "journals": ["IEEE TPAMI", "IEEE TCSVT"],
+  "workshops": [
+    {
+      "year": "2024",
+      "title": "Transformers for Vision",
+      "role": "Program committee",
+      "conference": "CVPR",
+      "url": "https://sites.google.com/view/t4v-cvpr24"
+    },
+    {
+      "year": "2023",
+      "title": "Computer Vision in the Wild",
+      "role": "Co-organizer",
+      "conference": "CVPR",
+      "url": "https://computer-vision-in-the-wild.github.io/cvpr-2023/"
+    },
+    {
+      "year": "2022",
+      "title": "Computer Vision in the Wild",
+      "role": "Co-organizer",
+      "conference": "ECCV",
+      "url": "https://computer-vision-in-the-wild.github.io/eccv-2022/"
+    }
+  ],
+  "honors": [
+    {
+      "year": "2022",
+      "title": "Best Paper Finalist",
+      "venue": "CVPR · GLIP",
+      "detail": "Grounded Language-Image Pre-training",
+      "url": "https://research.nvidia.com/person/haotian-zhang"
+    },
+    {
+      "year": "2022",
+      "title": "Young Scholar Award",
+      "venue": "NeurIPS",
+      "detail": ""
+    },
+    {
+      "year": "2020–2021",
+      "title": "BMTT Challenge team awards",
+      "venue": "CVPR 2020 · ICCV 2021",
+      "detail": "Two track wins in 2021; one track win and one runner-up in 2020."
+    }
+  ],
+  "provenance": {
+    "areaChair": "CV page 4; conference/year assignments confirmed directly by the site owner on 2026-10-14.",
+    "reviewing": "CV page 4 and owner-provided conference list on 2026-10-14. Historical service; no unverified current-year appointment implied.",
+    "workshops": "CV page 4 and linked official workshop organizer/program committee pages.",
+    "honors": "CV page 1. BMTT results are presented as team awards."
+  }
+}

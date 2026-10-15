@@ -9,6 +9,7 @@ const out = path.join(root, 'public');
 const styleVersion = createHash('sha256').update(await readFile(path.join(root, 'site/assets/style.css'))).digest('hex').slice(0,12);
 const profile = JSON.parse(await readFile(path.join(root, 'site/data/profile.json'), 'utf8'));
 const publications = JSON.parse(await readFile(path.join(root, 'site/data/publications.json'), 'utf8'));
+const service = JSON.parse(await readFile(path.join(root, 'site/data/service.json'), 'utf8'));
 const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const exists = async name => access(name).then(() => true, () => false);
 const url = pathname => `${profile.siteUrl}${pathname}`;
@@ -39,7 +40,7 @@ function layout({ title, description, pathname='/', body, active='', noindex=fal
 ${noindex?'<meta name="robots" content="noindex">':''}<link rel="stylesheet" href="/assets/style.css?v=${styleVersion}"><script src="/assets/site.js" defer></script>
 <script type="application/ld+json">${JSON.stringify(schema||person).replace(/</g,'\\u003c')}</script></head>
 <body><a class="skip-link" href="#main">Skip to content</a><div class="container">
-<header class="site-header"><a class="wordmark" href="/" aria-label="Haotian Zhang, home"><span class="monogram" aria-hidden="true">HZ</span><span>Haotian Zhang</span></a><nav aria-label="Main navigation"><a href="/#about"${active==='about'?' aria-current="page"':''}>About</a><a href="/publication/"${active==='research'?' aria-current="page"':''}>Research</a><a href="/#experience">Experience</a><a class="nav-contact" href="/#contact">Contact</a></nav></header>
+<header class="site-header"><a class="wordmark" href="/" aria-label="Haotian Zhang, home"><span class="monogram" aria-hidden="true">HZ</span><span>Haotian Zhang</span></a><nav aria-label="Main navigation"><a href="/#about"${active==='about'?' aria-current="page"':''}>About</a><a href="/publication/"${active==='research'?' aria-current="page"':''}>Research</a><a href="/#experience">Experience</a><a class="nav-service" href="/#service">Service</a><a class="nav-contact" href="/#contact">Contact</a></nav></header>
 <main id="main">${body}</main>
 <footer class="site-footer"><span>© ${profile.updated.slice(0,4)} Haotian Zhang</span><span>Last updated ${new Intl.DateTimeFormat('en',{month:'long',year:'numeric',timeZone:'UTC'}).format(new Date(profile.updated))} &nbsp;·&nbsp; <a href="https://github.com/Haotian-Zhang/haotian-zhang.github.io">Website source ↗</a></span></footer>
 </div></body></html>`;
@@ -77,6 +78,13 @@ function careerItem({ mark, style='', organization, orgUrl, role, dates, detail=
 }
 const news = `<dl class="news"><dt>Jun 2026</dt><dd><a href="https://research.nvidia.com/labs/cosmos-lab/cosmos3/">Cosmos 3</a>: omnimodal world models for physical AI.</dd><dt>2026</dt><dd><a href="https://machinelearning.apple.com/research/manzano">MANZANO</a> at ICLR — unified multimodal understanding and generation.</dd><dt>Jan 2026</dt><dd>Joined <a href="${profile.organizationUrl}">NVIDIA Cosmos Lab</a> to work on foundation models for physical AI.</dd></dl>`;
 const selected = publications.filter(p=>p.featured);
+const academicService = `<section class="academic-service" id="service" aria-labelledby="service-title">
+<div class="section-heading"><h2 id="service-title">Academic service</h2><span class="service-scope">Vision · Language · Machine learning</span></div>
+<div class="service-grid"><div class="chair-group"><h3>Area chair</h3><dl class="chair-list">${service.areaChair.map(item=>`<div class="chair-row"><dt><span>${esc(item.conference)}</span><span class="service-year">${esc(item.year)}</span></dt><dd>${esc(item.area)}</dd></div>`).join('')}</dl></div>
+<div class="review-group"><h3>Reviewing &amp; program committees</h3><ul class="review-venues" aria-label="Conferences reviewed">${service.reviewerConferences.map(venue=>`<li>${esc(venue)}</li>`).join('')}</ul><p class="review-additional">Also ${service.additionalConferences.map(esc).join(', ')}.</p><p class="review-journals"><span>Journals</span> ${service.journals.map(esc).join(' · ')}</p></div></div>
+<div class="workshop-group"><h3>Workshop organization</h3><ul class="workshop-list">${service.workshops.map(item=>`<li><span class="service-year">${esc(item.year)}</span><a href="${esc(item.url)}">${esc(item.title)} <span aria-hidden="true">↗</span></a><span class="workshop-role">${esc(item.role)} <span aria-hidden="true">·</span> <strong>${esc(item.conference)}</strong></span></li>`).join('')}</ul></div></section>`;
+const honors = `<section class="honors-section" id="honors" aria-labelledby="honors-title"><div class="section-heading"><h2 id="honors-title">Selected honors</h2></div><ul class="honors-list">${service.honors.map(item=>`<li><span class="honor-year">${esc(item.year)}</span><h3>${item.url?`<a href="${esc(item.url)}">${esc(item.title)}</a>`:esc(item.title)}</h3><p class="honor-venue">${esc(item.venue)}</p>${item.detail?`<p class="honor-detail">${esc(item.detail)}</p>`:''}</li>`).join('')}</ul></section>`;
+const contact = `<section class="contact-panel" id="contact" aria-labelledby="contact-title"><div class="contact-copy"><p class="eyebrow">Research &amp; collaboration</p><h2 id="contact-title">Let’s connect.</h2><p>For research discussions, collaborations, and invited talks on foundation models, multimodal LLMs, and visual understanding.</p></div><div class="contact-actions"><a class="contact-button" href="mailto:${esc(profile.email)}">Email Haotian <span aria-hidden="true">↗</span></a><a class="contact-address" href="mailto:${esc(profile.email)}">${esc(profile.email)}</a><div class="contact-profiles"><a href="${esc(profile.scholar)}">Google Scholar <span aria-hidden="true">↗</span></a><a href="${esc(profile.linkedin)}">LinkedIn <span aria-hidden="true">↗</span></a></div></div></section>`;
 const home = `<section class="hero" id="about" aria-labelledby="name"><div class="hero-copy"><p class="eyebrow">Foundation models · Multimodal LLMs</p><h1 id="name">Haotian Zhang</h1><p class="role">${esc(profile.role)} <span class="role-dot">·</span> <a href="${profile.organizationUrl}">${esc(profile.organization)}</a></p>
 <p class="lead">I develop <strong>foundation models</strong> and <strong>multimodal LLMs</strong>, with a focus on visual understanding, reasoning, and generation.</p>
 <p>At NVIDIA Cosmos Lab, I work with <a href="https://mingyuliu.net/">Ming-Yu Liu</a> on foundation models for physical AI. Previously at <a href="https://machinelearning.apple.com/">Apple AI/ML</a>, I worked with <a href="https://sites.google.com/site/yinfeiyang/">Yinfei Yang</a> on multimodal LLMs, including <a href="https://arxiv.org/abs/2403.09611">MM1</a>, <a href="https://arxiv.org/abs/2409.20566">MM1.5</a>, and the <a href="https://github.com/apple-aiml-research/ml-ferret">Ferret</a> family. My earlier work at Microsoft Research includes <a href="https://github.com/microsoft/GLIP">GLIP and GLIPv2</a>.</p>
@@ -95,8 +103,9 @@ ${careerItem({mark:'W',style:'uw',organization:'University of Washington',orgUrl
 ${careerItem({mark:'W',style:'uw',organization:'University of Washington',orgUrl:'https://www.washington.edu/',role:'M.S., Applied Mathematics · 2021<br>M.S., Electrical &amp; Computer Engineering · 2019',dates:''})}
 ${careerItem({mark:'交',style:'sjtu',organization:'Shanghai Jiao Tong University',orgUrl:'https://en.sjtu.edu.cn/',role:'B.S., Nano &amp; Microelectronics',dates:'2017'})}
 </div></section>
-<section class="service" aria-labelledby="service-title"><h2 id="service-title">Community</h2><p>Co-organizer, <a href="https://computer-vision-in-the-wild.github.io/eccv-2022/">Computer Vision in the Wild workshop</a>, ECCV 2022. GLIP received a <a href="https://research.nvidia.com/person/haotian-zhang">CVPR 2022 Best Paper Finalist</a> recognition.</p></section>
-<section class="contact" id="contact" aria-labelledby="contact-title"><div><h2 id="contact-title">Let’s connect.</h2><p>For research conversations and collaborations.</p></div><a href="mailto:${esc(profile.email)}">${esc(profile.email)} <span aria-hidden="true">↗</span></a></section>`;
+${academicService}
+${honors}
+${contact}`;
 await writeFile(path.join(out,'index.html'),layout({title:'Haotian Zhang · NVIDIA Cosmos',description:'Haotian Zhang is a Staff Research Scientist at NVIDIA Cosmos Lab, working on foundation models, multimodal LLMs, and visual grounding.',body:home,active:'about'}));
 
 const topics=[...new Set(publications.map(p=>p.topic))].sort();
