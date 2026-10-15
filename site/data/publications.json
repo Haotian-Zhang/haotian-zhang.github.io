@@ -1,0 +1,936 @@
+[
+  {
+    "id": "cosmos3",
+    "title": "Cosmos 3: Omnimodal World Models for Physical AI",
+    "authors": [
+      "NVIDIA",
+      "et al."
+    ],
+    "authorNote": "NVIDIA team; Haotian Zhang is in the full author list. Collective-author display avoids inventing a position in the 294-person author list.",
+    "venue": "Technical report",
+    "year": 2026,
+    "date": "2026-06-01",
+    "summary": "A unified world-model family that understands and generates language, images, video, audio, and actions for physical AI.",
+    "paper": "https://arxiv.org/abs/2606.02800",
+    "code": "https://github.com/NVIDIA/cosmos",
+    "project": "https://research.nvidia.com/labs/cosmos-lab/cosmos3/",
+    "topic": "World models",
+    "sources": [
+      "https://arxiv.org/abs/2606.02800",
+      "https://research.nvidia.com/labs/cosmos-lab/cosmos3/"
+    ],
+    "featured": true,
+    "image": "cosmos3.png"
+  },
+  {
+    "id": "manzano",
+    "title": "MANZANO: A Simple and Scalable Unified Multimodal Model with a Hybrid Vision Tokenizer",
+    "authors": [
+      "Yanghao Li",
+      "Rui Qian",
+      "Bowen Pan",
+      "Haotian Zhang",
+      "Haoshuo Huang",
+      "Bowen Zhang",
+      "Jialing Tong",
+      "Haoxuan You",
+      "Xianzhi Du",
+      "Zhe Gan",
+      "Hyunjik Kim",
+      "Chao Jia",
+      "Zhenbang Wang",
+      "Yinfei Yang",
+      "Mingfei Gao",
+      "Zi-Yi Dou",
+      "Wenze Hu",
+      "Chang Gao",
+      "Dongxu Li",
+      "Philipp Dufter",
+      "Zirui Wang",
+      "Guoli Yin",
+      "Zhengdong Zhang",
+      "Chen Chen",
+      "Yang Zhao",
+      "Ruoming Pang",
+      "Zhifeng Chen"
+    ],
+    "venue": "ICLR",
+    "year": 2026,
+    "date": "2025-09-19",
+    "summary": "A hybrid vision tokenizer brings visual understanding and image generation into one scalable multimodal model.",
+    "paper": "https://arxiv.org/abs/2509.16197",
+    "code": null,
+    "project": "https://machinelearning.apple.com/research/manzano",
+    "topic": "Multimodal models",
+    "sources": [
+      "https://arxiv.org/abs/2509.16197",
+      "https://machinelearning.apple.com/research/manzano"
+    ],
+    "featured": true,
+    "image": "manzano.jpg"
+  },
+  {
+    "id": "ferret-ui-lite",
+    "title": "Ferret-UI Lite: Lessons from Building Small On-Device GUI Agents",
+    "authors": [
+      "Zhen Yang",
+      "Zi-Yi Dou",
+      "Di Feng",
+      "Forrest Huang",
+      "Anh Nguyen",
+      "Keen You",
+      "Omar Attia",
+      "Yuhao Yang",
+      "Michael Feng",
+      "Haotian Zhang",
+      "Ram Ramrakhya",
+      "Chao Jia",
+      "Jeffrey Nichols",
+      "Alexander Toshev",
+      "Yinfei Yang",
+      "Zhe Gan"
+    ],
+    "venue": "arXiv",
+    "year": 2025,
+    "date": "2025-09-30",
+    "summary": "A compact 3B GUI agent for mobile, web, and desktop, trained with diverse interaction data, visual tools, and reinforcement learning.",
+    "paper": "https://arxiv.org/abs/2509.26539",
+    "code": null,
+    "project": "https://machinelearning.apple.com/research/ferret-ui",
+    "topic": "GUI agents",
+    "sources": [
+      "https://arxiv.org/abs/2509.26539",
+      "https://machinelearning.apple.com/research/ferret-ui"
+    ],
+    "notes": "Apple research page posted February 2026; original arXiv date is September 2025. No conference claimed.",
+    "featured": false
+  },
+  {
+    "id": "mm1_5",
+    "title": "MM1.5: Methods, Analysis & Insights from Multimodal LLM Fine-tuning",
+    "authors": [
+      "Haotian Zhang",
+      "Mingfei Gao",
+      "Zhe Gan",
+      "Philipp Dufter",
+      "Nina Wenzel",
+      "Forrest Huang",
+      "Dhruti Shah",
+      "Xianzhi Du",
+      "Bowen Zhang",
+      "Yanghao Li",
+      "Sam Dodge",
+      "Keen You",
+      "Zhen Yang",
+      "Aleksei Timofeev",
+      "Mingze Xu",
+      "Hong-You Chen",
+      "Jean-Philippe Fauconnier",
+      "Zhengfeng Lai",
+      "Haoxuan You",
+      "Zirui Wang",
+      "Afshin Dehghan",
+      "Peter Grasch",
+      "Yinfei Yang"
+    ],
+    "venue": "ICLR",
+    "year": 2025,
+    "date": "2024-09-30",
+    "summary": "Data and training recipes for multimodal models with stronger text-rich image understanding, grounding, and multi-image reasoning.",
+    "paper": "https://arxiv.org/abs/2409.20566",
+    "code": null,
+    "project": "https://machinelearning.apple.com/research/mm15-methods-analysis-insights",
+    "topic": "Multimodal models",
+    "sources": [
+      "https://arxiv.org/abs/2409.20566",
+      "https://machinelearning.apple.com/research/mm15-methods-analysis-insights"
+    ],
+    "featured": true,
+    "image": "mm15.jpg"
+  },
+  {
+    "id": "ferret-ui-2",
+    "title": "Ferret-UI 2: Mastering Universal User Interface Understanding Across Platforms",
+    "authors": [
+      "Zhangheng Li",
+      "Keen You",
+      "Haotian Zhang",
+      "Di Feng",
+      "Harsh Agrawal",
+      "Xiujun Li",
+      "Mohana Prasad Sathya Moorthy",
+      "Jeff Nichols",
+      "Yinfei Yang",
+      "Zhe Gan"
+    ],
+    "venue": "ICLR",
+    "year": 2025,
+    "date": "2024-10-24",
+    "summary": "Grounded UI understanding across phones, tablets, webpages, and TV screens through adaptive visual scaling and richer training data.",
+    "paper": "https://arxiv.org/abs/2410.18967",
+    "code": null,
+    "project": "https://machinelearning.apple.com/research/ferret-ui-2",
+    "topic": "GUI agents",
+    "sources": [
+      "https://arxiv.org/abs/2410.18967",
+      "https://machinelearning.apple.com/research/ferret-ui-2"
+    ],
+    "featured": false
+  },
+  {
+    "id": "ferret-v2",
+    "title": "Ferret-v2: An Improved Baseline for Referring and Grounding with Large Language Models",
+    "authors": [
+      "Haotian Zhang",
+      "Haoxuan You",
+      "Philipp Dufter",
+      "Bowen Zhang",
+      "Chen Chen",
+      "Hong-You Chen",
+      "Tsu-Jui Fu",
+      "William Yang Wang",
+      "Shih-Fu Chang",
+      "Zhe Gan",
+      "Yinfei Yang"
+    ],
+    "venue": "COLM",
+    "year": 2024,
+    "date": "2024-04-11",
+    "summary": "High-resolution visual grounding and referring through flexible image resolution, richer visual features, and staged training.",
+    "paper": "https://arxiv.org/abs/2404.07973",
+    "code": "https://github.com/apple-aiml-research/ml-ferret",
+    "project": "https://machinelearning.apple.com/research/ferretv2",
+    "topic": "Grounding",
+    "sources": [
+      "https://arxiv.org/abs/2404.07973",
+      "https://machinelearning.apple.com/research/ferretv2"
+    ],
+    "featured": true,
+    "image": "ferret-v2.jpg"
+  },
+  {
+    "id": "mm1",
+    "title": "MM1: Methods, Analysis & Insights from Multimodal LLM Pre-training",
+    "authors": [
+      "Brandon McKinzie",
+      "Zhe Gan",
+      "Jean-Philippe Fauconnier",
+      "Sam Dodge",
+      "Bowen Zhang",
+      "Philipp Dufter",
+      "Dhruti Shah",
+      "Xianzhi Du",
+      "Futang Peng",
+      "Floris Weers",
+      "Anton Belyi",
+      "Haotian Zhang",
+      "Karanjeet Singh",
+      "Doug Kang",
+      "Ankur Jain",
+      "Hongyu Hè",
+      "Max Schwarzer",
+      "Tom Gunter",
+      "Xiang Kong",
+      "Aonan Zhang",
+      "Jianyu Wang",
+      "Chong Wang",
+      "Nan Du",
+      "Tao Lei",
+      "Sam Wiseman",
+      "Guoli Yin",
+      "Mark Lee",
+      "Zirui Wang",
+      "Ruoming Pang",
+      "Peter Grasch",
+      "Alexander Toshev",
+      "Yinfei Yang"
+    ],
+    "venue": "ECCV",
+    "year": 2024,
+    "date": "2024-03-14",
+    "summary": "A systematic study of architecture and data choices for scaling multimodal language-model pre-training.",
+    "paper": "https://arxiv.org/abs/2403.09611",
+    "code": null,
+    "project": "https://machinelearning.apple.com/research/mm1-methods-analysis-insights",
+    "topic": "Multimodal models",
+    "sources": [
+      "https://arxiv.org/abs/2403.09611",
+      "https://zhegan27.github.io/"
+    ],
+    "notes": "Author order follows arXiv version, not the different Apple page or proceedings list.",
+    "featured": false
+  },
+  {
+    "id": "ferret",
+    "title": "Ferret: Refer and Ground Anything Anywhere at Any Granularity",
+    "authors": [
+      "Haoxuan You",
+      "Haotian Zhang",
+      "Zhe Gan",
+      "Xianzhi Du",
+      "Bowen Zhang",
+      "Zirui Wang",
+      "Liangliang Cao",
+      "Shih-Fu Chang",
+      "Yinfei Yang"
+    ],
+    "venue": "ICLR",
+    "year": 2024,
+    "date": "2023-10-11",
+    "summary": "A multimodal language model that connects conversational language with points, boxes, and free-form image regions.",
+    "paper": "https://arxiv.org/abs/2310.07704",
+    "code": "https://github.com/apple-aiml-research/ml-ferret",
+    "project": "https://machinelearning.apple.com/research/ferret",
+    "topic": "Grounding",
+    "sources": [
+      "https://arxiv.org/abs/2310.07704",
+      "https://machinelearning.apple.com/updates/apple-at-iclr-2024"
+    ],
+    "notes": "Author order follows arXiv version.",
+    "featured": true,
+    "image": "ferret.jpg"
+  },
+  {
+    "id": "clip-training",
+    "title": "VeCLIP: Improving CLIP Training via Visual-enriched Captions",
+    "authors": [
+      "Zhengfeng Lai",
+      "Haotian Zhang",
+      "Bowen Zhang",
+      "Wentao Wu",
+      "Haoping Bai",
+      "Aleksei Timofeev",
+      "Xianzhi Du",
+      "Zhe Gan",
+      "Jiulong Shan",
+      "Chen-Nee Chuah",
+      "Yinfei Yang",
+      "Meng Cao"
+    ],
+    "venue": "ECCV",
+    "year": 2024,
+    "date": "2023-10-11",
+    "summary": "Visual-enriched caption rewriting improves image–text alignment and the data efficiency of CLIP pre-training.",
+    "paper": "https://arxiv.org/abs/2310.07699",
+    "code": "https://github.com/apple/ml-veclip",
+    "project": "https://machinelearning.apple.com/research/veclip",
+    "topic": "Vision-language learning",
+    "sources": [
+      "https://arxiv.org/abs/2310.07699",
+      "https://machinelearning.apple.com/research/veclip"
+    ],
+    "equalContribution": [
+      "Zhengfeng Lai",
+      "Haotian Zhang"
+    ],
+    "featured": false
+  },
+  {
+    "id": "glipv2",
+    "title": "GLIPv2: Unifying Localization and Vision-Language Understanding",
+    "authors": [
+      "Haotian Zhang",
+      "Pengchuan Zhang",
+      "Xiaowei Hu",
+      "Yen-Chun Chen",
+      "Liunian Harold Li",
+      "Xiyang Dai",
+      "Lijuan Wang",
+      "Lu Yuan",
+      "Jenq-Neng Hwang",
+      "Jianfeng Gao"
+    ],
+    "venue": "NeurIPS",
+    "year": 2022,
+    "date": "2022-06-12",
+    "summary": "One model connects object localization with vision-language tasks, from open-vocabulary detection to visual question answering.",
+    "paper": "https://arxiv.org/abs/2206.05836",
+    "code": "https://github.com/microsoft/GLIP",
+    "project": null,
+    "topic": "Grounding",
+    "sources": [
+      "https://arxiv.org/abs/2206.05836"
+    ],
+    "featured": true,
+    "image": "glipv2.jpg"
+  },
+  {
+    "id": "glip",
+    "title": "GLIP: Grounded Language-Image Pre-training",
+    "authors": [
+      "Liunian Harold Li",
+      "Pengchuan Zhang",
+      "Haotian Zhang",
+      "Jianwei Yang",
+      "Chunyuan Li",
+      "Yiwu Zhong",
+      "Lijuan Wang",
+      "Lu Yuan",
+      "Lei Zhang",
+      "Jenq-Neng Hwang",
+      "Kai-Wei Chang",
+      "Jianfeng Gao"
+    ],
+    "venue": "CVPR",
+    "year": 2022,
+    "date": "2021-12-07",
+    "summary": "Unifying object detection and phrase grounding enables transferable, open-vocabulary visual recognition.",
+    "paper": "https://arxiv.org/abs/2112.03857",
+    "code": "https://github.com/microsoft/GLIP",
+    "project": "https://www.microsoft.com/en-us/research/project/project-florence-vl/articles/object-detection-in-the-wild-via-grounded-language-image-pre-training/",
+    "topic": "Grounding",
+    "sources": [
+      "https://arxiv.org/abs/2112.03857",
+      "https://research.nvidia.com/person/haotian-zhang"
+    ],
+    "award": "Best Paper Finalist",
+    "featured": true,
+    "image": "glip.jpg"
+  },
+  {
+    "code": null,
+    "project": "https://machinelearning.apple.com/research/contrastive-localized",
+    "featured": false,
+    "id": "cloc",
+    "title": "Contrastive Localized Language-Image Pre-Training",
+    "authors": [
+      "Hong-You Chen",
+      "Zhengfeng Lai",
+      "Haotian Zhang",
+      "Xinze Wang",
+      "Marcin Eichner",
+      "Keen You",
+      "Meng Cao",
+      "Bowen Zhang",
+      "Yinfei Yang",
+      "Zhe Gan"
+    ],
+    "venue": "ICML",
+    "year": 2025,
+    "date": "2024-10-03",
+    "summary": "Region-text contrastive learning produces visual representations for fine-grained recognition, retrieval, and grounded multimodal understanding.",
+    "paper": "https://arxiv.org/abs/2410.02746",
+    "topic": "Grounding",
+    "sources": [
+      "https://arxiv.org/abs/2410.02746",
+      "https://machinelearning.apple.com/research/contrastive-localized"
+    ]
+  },
+  {
+    "code": null,
+    "project": "https://machinelearning.apple.com/research/large-scale-image-caption",
+    "featured": false,
+    "id": "revisit-caption",
+    "title": "Revisit Large-Scale Image-Caption Data in Pre-training Multimodal Foundation Models",
+    "authors": [
+      "Zhengfeng Lai",
+      "Vasileios Saveris",
+      "Chen Chen",
+      "Hong-You Chen",
+      "Haotian Zhang",
+      "Bowen Zhang",
+      "Juan Lao Tebar",
+      "Wenze Hu",
+      "Zhe Gan",
+      "Peter Grasch",
+      "Meng Cao",
+      "Yinfei Yang"
+    ],
+    "venue": "ICLR",
+    "year": 2025,
+    "date": "2024-10-03",
+    "summary": "A study of synthetic captions and original web text for pre-training contrastive, language, and diffusion models.",
+    "paper": "https://arxiv.org/abs/2410.02740",
+    "topic": "Vision-language learning",
+    "sources": [
+      "https://arxiv.org/abs/2410.02740",
+      "https://machinelearning.apple.com/research/large-scale-image-caption"
+    ]
+  },
+  {
+    "code": null,
+    "project": "https://machinelearning.apple.com/research/mm-ego",
+    "featured": false,
+    "id": "mm-ego",
+    "title": "MM-Ego: Towards Building Egocentric Multimodal LLMs for Video QA",
+    "authors": [
+      "Hanrong Ye",
+      "Haotian Zhang",
+      "Erik Daxberger",
+      "Lin Chen",
+      "Zongyu Lin",
+      "Yanghao Li",
+      "Bowen Zhang",
+      "Haoxuan You",
+      "Dan Xu",
+      "Zhe Gan",
+      "Jiasen Lu",
+      "Yinfei Yang"
+    ],
+    "venue": "ICLR",
+    "year": 2025,
+    "date": "2024-10-09",
+    "summary": "Data, evaluation, and memory-guided modeling for understanding long egocentric videos.",
+    "paper": "https://arxiv.org/abs/2410.07177",
+    "topic": "Multimodal models",
+    "sources": [
+      "https://arxiv.org/abs/2410.07177",
+      "https://machinelearning.apple.com/research/mm-ego"
+    ]
+  },
+  {
+    "code": null,
+    "project": "https://machinelearning.apple.com/research/chain-of-thought",
+    "featured": false,
+    "id": "improve-cot",
+    "title": "Improve Vision Language Model Chain-of-thought Reasoning",
+    "authors": [
+      "Ruohong Zhang",
+      "Bowen Zhang",
+      "Yanghao Li",
+      "Haotian Zhang",
+      "Zhiqing Sun",
+      "Zhe Gan",
+      "Yinfei Yang",
+      "Ruoming Pang",
+      "Yiming Yang"
+    ],
+    "venue": "ACL",
+    "year": 2025,
+    "date": "2024-10-21",
+    "summary": "Rationale distillation and preference optimization strengthen reasoning in vision-language models.",
+    "paper": "https://arxiv.org/abs/2410.16198",
+    "topic": "Multimodal models",
+    "sources": [
+      "https://arxiv.org/abs/2410.16198",
+      "https://machinelearning.apple.com/research/chain-of-thought"
+    ]
+  },
+  {
+    "code": null,
+    "project": null,
+    "featured": false,
+    "id": "apple-intelligence-2025",
+    "title": "Apple Intelligence Foundation Language Models: Tech Report 2025",
+    "authors": [
+      "Ethan Li",
+      "Anders Boesen Lindbo Larsen",
+      "Chen Zhang",
+      "et al."
+    ],
+    "venue": "Technical report",
+    "year": 2025,
+    "date": "2025-07-17",
+    "summary": "Technical report on the foundation language models behind Apple Intelligence.",
+    "paper": "https://arxiv.org/abs/2507.13575",
+    "topic": "Multimodal models",
+    "sources": [
+      "https://arxiv.org/abs/2507.13575"
+    ],
+    "authorNote": "Haotian Zhang is in the full published author list. This abbreviated display preserves the first three authors."
+  },
+  {
+    "code": null,
+    "project": "https://machinelearning.apple.com/research/ferretui-mobile",
+    "featured": true,
+    "id": "ferret-ui",
+    "title": "Ferret-UI: Grounded Mobile UI Understanding with Multimodal LLMs",
+    "authors": [
+      "Keen You",
+      "Haotian Zhang",
+      "Eldon Schoop",
+      "Floris Weers",
+      "Amanda Swearngin",
+      "Jeffrey Nichols",
+      "Yinfei Yang",
+      "Zhe Gan"
+    ],
+    "venue": "ECCV",
+    "year": 2024,
+    "date": "2024-04-08",
+    "summary": "Referring, grounding, and reasoning capabilities for understanding mobile user interfaces.",
+    "paper": "https://arxiv.org/abs/2404.05719",
+    "topic": "GUI agents",
+    "sources": [
+      "https://arxiv.org/abs/2404.05719",
+      "https://machinelearning.apple.com/research/ferretui-mobile"
+    ],
+    "image": "ferret-ui.jpg"
+  },
+  {
+    "code": null,
+    "project": "https://machinelearning.apple.com/research/how-easy",
+    "featured": false,
+    "id": "deceptive-prompts",
+    "title": "How Easy is It to Fool Your Multimodal LLMs? An Empirical Analysis on Deceptive Prompts",
+    "authors": [
+      "Yusu Qian",
+      "Haotian Zhang",
+      "Yinfei Yang",
+      "Zhe Gan"
+    ],
+    "venue": "NeurIPS Workshop",
+    "year": 2024,
+    "date": "2024-02-20",
+    "summary": "An empirical evaluation of multimodal models under misleading visual questions and prompts.",
+    "paper": "https://arxiv.org/abs/2402.13220",
+    "topic": "Multimodal models",
+    "sources": [
+      "https://arxiv.org/abs/2402.13220",
+      "https://machinelearning.apple.com/research/how-easy"
+    ]
+  },
+  {
+    "code": null,
+    "project": null,
+    "featured": false,
+    "id": "uda-vlm",
+    "title": "Empowering Unsupervised Domain Adaptation With Large-Scale Pre-Trained Vision-Language Models",
+    "authors": [
+      "Zhengfeng Lai",
+      "Haoping Bai",
+      "Haotian Zhang",
+      "Xianzhi Du",
+      "Jiulong Shan",
+      "Yinfei Yang",
+      "Chen-Nee Chuah",
+      "Meng Cao"
+    ],
+    "venue": "WACV",
+    "year": 2024,
+    "date": "2024-01",
+    "summary": "Efficient adaptation and domain-aware pseudo-labeling transfer large vision-language models across visual domains.",
+    "paper": "https://openaccess.thecvf.com/content/WACV2024/html/Lai_Empowering_Unsupervised_Domain_Adaptation_With_Large-Scale_Pre-Trained_Vision-Language_Models_WACV_2024_paper.html",
+    "topic": "Vision-language learning",
+    "sources": [
+      "https://openaccess.thecvf.com/content/WACV2024/html/Lai_Empowering_Unsupervised_Domain_Adaptation_With_Large-Scale_Pre-Trained_Vision-Language_Models_WACV_2024_paper.html"
+    ]
+  },
+  {
+    "code": null,
+    "project": null,
+    "featured": false,
+    "id": "dior",
+    "title": "DIOR: DIstill Observations to Representations for Multi-Object Tracking and Segmentation",
+    "authors": [
+      "Jiarui Cai",
+      "Yizhou Wang",
+      "Hung-Min Hsu",
+      "Haotian Zhang",
+      "Jenq-Neng Hwang"
+    ],
+    "venue": "WACV Workshops",
+    "year": 2022,
+    "date": "2022-01",
+    "summary": "Spatial and temporal feature distillation supports joint multi-object tracking and segmentation.",
+    "paper": "https://openaccess.thecvf.com/content/WACV2022W/RWS/html/Cai_DIOR_DIstill_Observations_to_Representations_for_Multi-Object_Tracking_and_Segmentation_WACVW_2022_paper.html",
+    "topic": "3D perception and tracking",
+    "sources": [
+      "https://openaccess.thecvf.com/content/WACV2022W/RWS/html/Cai_DIOR_DIstill_Observations_to_Representations_for_Multi-Object_Tracking_and_Segmentation_WACVW_2022_paper.html"
+    ]
+  },
+  {
+    "code": null,
+    "project": null,
+    "featured": false,
+    "id": "mono3d-vehicles",
+    "title": "Monocular 3D Localization of Vehicles in Road Scenes",
+    "authors": [
+      "Haotian Zhang",
+      "Haorui Ji",
+      "Aotian Zheng",
+      "Jenq-Neng Hwang",
+      "Ren-Hung Hwang"
+    ],
+    "venue": "ICCV Workshops",
+    "year": 2021,
+    "date": "2021-10",
+    "summary": "A monocular framework combines 3D detection, tracking, and temporal optimization to localize vehicles.",
+    "paper": "https://openaccess.thecvf.com/content/ICCV2021W/AVVision/papers/Zhang_Monocular_3D_Localization_of_Vehicles_in_Road_Scenes_ICCVW_2021_paper.pdf",
+    "topic": "3D perception and tracking",
+    "sources": [
+      "https://openaccess.thecvf.com/content/ICCV2021W/AVVision/papers/Zhang_Monocular_3D_Localization_of_Vehicles_in_Road_Scenes_ICCVW_2021_paper.pdf"
+    ]
+  },
+  {
+    "code": null,
+    "project": "https://yangchris11.github.io/publications/",
+    "featured": false,
+    "id": "u3d-molts",
+    "title": "U3D-MOLTS: Unified 3D Monocular Object Localization, Tracking and Segmentation",
+    "authors": [
+      "Haotian Zhang",
+      "Yizhou Wang",
+      "Zhongyu Jiang",
+      "Cheng-Yen Yang",
+      "Jie Mei",
+      "Jiarui Cai",
+      "Jenq-Neng Hwang",
+      "Kwang-Ju Kim",
+      "Pyong-Kun Kim"
+    ],
+    "venue": "ICCV BMTT Workshop",
+    "year": 2021,
+    "date": "2021-10",
+    "summary": "A unified pipeline for monocular 3D object localization, multi-object tracking, and segmentation.",
+    "paper": "https://jay-ipl.github.io/BMTT2021_Track1_KITTI.pdf",
+    "topic": "3D perception and tracking",
+    "sources": [
+      "https://jay-ipl.github.io/BMTT2021_Track1_KITTI.pdf",
+      "https://yangchris11.github.io/publications/"
+    ]
+  },
+  {
+    "code": null,
+    "project": null,
+    "featured": false,
+    "id": "hvps",
+    "title": "HVPS: A Human Video Panoptic Segmentation Framework",
+    "authors": [
+      "Yizhou Wang",
+      "Haotian Zhang",
+      "Zhongyu Jiang",
+      "Jie Mei",
+      "Cheng-Yen Yang",
+      "Jiarui Cai",
+      "Jenq-Neng Hwang",
+      "Kwang-Ju Kim",
+      "Pyong-Kun Kim"
+    ],
+    "venue": "ICCV BMTT Workshop",
+    "year": 2021,
+    "date": "2021-10",
+    "summary": "A human tracking and panoptic segmentation pipeline built around appearance features and temporal association.",
+    "paper": "https://jay-ipl.github.io/BMTT2021_Track1_MOT.pdf",
+    "topic": "3D perception and tracking",
+    "sources": [
+      "https://jay-ipl.github.io/BMTT2021_Track1_MOT.pdf"
+    ]
+  },
+  {
+    "code": null,
+    "project": "https://www.cruwdataset.org/rod2021",
+    "featured": false,
+    "id": "rod2021",
+    "title": "ROD2021 Challenge: A Summary for Radar Object Detection Challenge for Autonomous Driving Applications",
+    "authors": [
+      "Yizhou Wang",
+      "Jenq-Neng Hwang",
+      "Gaoang Wang",
+      "Hui Liu",
+      "Kwang-Ju Kim",
+      "Hung-Min Hsu",
+      "Jiarui Cai",
+      "Haotian Zhang",
+      "Zhongyu Jiang",
+      "Renshu Gu"
+    ],
+    "venue": "ACM ICMR",
+    "year": 2021,
+    "date": "2021-08",
+    "summary": "Benchmark and challenge results for detecting road objects directly from radar observations.",
+    "paper": "https://doi.org/10.1145/3460426.3463658",
+    "topic": "3D perception and tracking",
+    "sources": [
+      "https://doi.org/10.1145/3460426.3463658",
+      "https://www.cruwdataset.org/rod2021"
+    ]
+  },
+  {
+    "code": null,
+    "project": "https://motchallenge.net/workshops/bmtt2020/papers/IA-MOT.pdf",
+    "featured": false,
+    "id": "ia-mot",
+    "title": "IA-MOT: Instance-Aware Multi-Object Tracking with Motion Consistency",
+    "authors": [
+      "Jiarui Cai",
+      "Yizhou Wang",
+      "Haotian Zhang",
+      "Hung-Min Hsu",
+      "Chengqian Ma",
+      "Jenq-Neng Hwang"
+    ],
+    "venue": "CVPR BMTT Workshop",
+    "year": 2020,
+    "date": "2020-06-24",
+    "summary": "Instance-level appearance and motion consistency help track objects across static and moving cameras.",
+    "paper": "https://arxiv.org/abs/2006.13458",
+    "topic": "3D perception and tracking",
+    "sources": [
+      "https://arxiv.org/abs/2006.13458",
+      "https://motchallenge.net/workshops/bmtt2020/papers/IA-MOT.pdf"
+    ]
+  },
+  {
+    "code": null,
+    "project": null,
+    "featured": false,
+    "id": "lifts",
+    "title": "LIFTS: LiDAR and Monocular Image Fusion for Multi-Object Tracking and Segmentation",
+    "authors": [
+      "Haotian Zhang",
+      "Yizhou Wang",
+      "Jiarui Cai",
+      "Hung-Min Hsu",
+      "Haorui Ji",
+      "Jenq-Neng Hwang"
+    ],
+    "venue": "CVPR BMTT Workshop",
+    "year": 2020,
+    "date": "2020-06",
+    "summary": "Fusing LiDAR and monocular imagery supports object detection, tracking, and segmentation.",
+    "paper": "https://motchallenge.net/workshops/bmtt2020/papers/LIFTS.pdf",
+    "topic": "3D perception and tracking",
+    "sources": [
+      "https://motchallenge.net/workshops/bmtt2020/papers/LIFTS.pdf"
+    ]
+  },
+  {
+    "code": null,
+    "project": null,
+    "featured": false,
+    "id": "eye_drone",
+    "title": "Eye in the Sky: Drone-Based Object Tracking and 3D Localization",
+    "authors": [
+      "Haotian Zhang",
+      "Gaoang Wang",
+      "Zhichao Lei",
+      "Jenq-Neng Hwang"
+    ],
+    "venue": "ACM Multimedia",
+    "year": 2019,
+    "date": "2019-10-18",
+    "summary": "Object tracking and 3D localization from video captured by a single camera on a drone.",
+    "paper": "https://arxiv.org/abs/1910.08259",
+    "topic": "3D perception and tracking",
+    "sources": [
+      "https://arxiv.org/abs/1910.08259"
+    ]
+  },
+  {
+    "code": null,
+    "project": "https://dl.acm.org/doi/abs/10.1145/3343031.3350853",
+    "featured": false,
+    "id": "tnt",
+    "title": "Exploit the Connectivity: Multi-Object Tracking with TrackletNet",
+    "authors": [
+      "Gaoang Wang",
+      "Yizhou Wang",
+      "Haotian Zhang",
+      "Renshu Gu",
+      "Jenq-Neng Hwang"
+    ],
+    "venue": "ACM Multimedia",
+    "year": 2019,
+    "date": "2018-11-18",
+    "summary": "Learned connections between short tracklets combine appearance and temporal information for multi-object tracking.",
+    "paper": "https://arxiv.org/abs/1811.07258",
+    "topic": "3D perception and tracking",
+    "sources": [
+      "https://arxiv.org/abs/1811.07258",
+      "https://dl.acm.org/doi/abs/10.1145/3343031.3350853"
+    ]
+  },
+  {
+    "code": null,
+    "project": "https://cmsworkshops.com/ICIP2019/Papers/ViewSession.asp?Sessionid=1071",
+    "featured": false,
+    "id": "bundle-adjustment-icip",
+    "title": "Bundle Adjustment for Monocular Visual Odometry Based on Detected Traffic Sign Features",
+    "authors": [
+      "Yanting Zhang",
+      "Jie Yang",
+      "Haotian Zhang",
+      "Jenq-Neng Hwang"
+    ],
+    "venue": "ICIP",
+    "year": 2019,
+    "date": "2019-09",
+    "summary": "Traffic-sign features provide additional geometric constraints for monocular visual odometry.",
+    "paper": "https://doi.org/10.1109/ICIP.2019.8803563",
+    "topic": "3D perception and tracking",
+    "sources": [
+      "https://doi.org/10.1109/ICIP.2019.8803563",
+      "https://cmsworkshops.com/ICIP2019/Papers/ViewSession.asp?Sessionid=1071"
+    ]
+  },
+  {
+    "code": null,
+    "project": "https://zhangyanting.github.io/publications/",
+    "featured": false,
+    "id": "bundle-adjustment-tvt",
+    "title": "Bundle Adjustment for Monocular Visual Odometry Based on Detections of Traffic Signs",
+    "authors": [
+      "Yanting Zhang",
+      "Haotian Zhang",
+      "Gaoang Wang",
+      "Jie Yang",
+      "Jenq-Neng Hwang"
+    ],
+    "venue": "IEEE TVT",
+    "year": 2020,
+    "date": "2020-01",
+    "summary": "Detected traffic signs constrain camera poses and map points to reduce monocular odometry drift.",
+    "paper": "https://doi.org/10.1109/TVT.2019.2954876",
+    "topic": "3D perception and tracking",
+    "sources": [
+      "https://doi.org/10.1109/TVT.2019.2954876",
+      "https://zhangyanting.github.io/publications/"
+    ],
+    "notes": "Published online November 2019, assigned to volume 69(1), January 2020. Use 2020 as issue year."
+  },
+  {
+    "id": "graphene",
+    "title": "Electro-thermal Simulation of Graphene Nanoribbon Interconnects",
+    "authors": [
+      "Haotian Zhang",
+      "Min Tang",
+      "Jun-fa Mao"
+    ],
+    "venue": "ACES-China",
+    "year": 2017,
+    "date": "2017",
+    "datePrecision": "year",
+    "summary": "Electrothermal modeling of graphene nanoribbon interconnects.",
+    "paper": "https://ieeexplore.ieee.org/document/8051934",
+    "code": null,
+    "project": null,
+    "topic": "Earlier research",
+    "sources": [
+      "https://haotian-zhang.github.io/uploads/resume.pdf",
+      "https://aces-society.org/search.php?year=2586",
+      "https://ieeexplore.ieee.org/document/8051934"
+    ],
+    "notes": "Identity and coauthor Min Tang confirmed in author's own CV; repository incorrectly said Meng Tang. Only year is verified. IEEE publisher page not fetchable by web tool.",
+    "featured": false
+  },
+  {
+    "id": "visdrone-mot",
+    "title": "VisDrone-MOT2019: The Vision Meets Drone Multiple Object Tracking Challenge Results",
+    "authors": [
+      "Longyin Wen",
+      "Pengfei Zhu",
+      "Dawei Du",
+      "Xiao Bian",
+      "Haibin Ling",
+      "Qinghua Hu",
+      "et al."
+    ],
+    "authorNote": "Haotian Zhang is in the full published author list; the paper's appendix A.10 explicitly identifies his University of Washington team. This display preserves the first six authors in CVF metadata.",
+    "venue": "ICCV Workshops",
+    "year": 2019,
+    "date": "2019-10",
+    "datePrecision": "month",
+    "summary": "Results and analysis from the VisDrone 2019 challenge on multi-object tracking in drone video.",
+    "paper": "https://openaccess.thecvf.com/content_ICCVW_2019/html/VISDrone/Wen_VisDrone-MOT2019_The_Vision_Meets_Drone_Multiple_Object_Tracking_Challenge_Results_ICCVW_2019_paper.html",
+    "code": null,
+    "project": null,
+    "topic": "3D perception and tracking",
+    "sources": [
+      "https://openaccess.thecvf.com/content_ICCVW_2019/html/VISDrone/Wen_VisDrone-MOT2019_The_Vision_Meets_Drone_Multiple_Object_Tracking_Challenge_Results_ICCVW_2019_paper.html",
+      "https://openaccess.thecvf.com/content_ICCVW_2019/papers/VISDrone/Wen_VisDrone-MOT2019_The_Vision_Meets_Drone_Multiple_Object_Tracking_Challenge_Results_ICCVW_2019_paper.pdf"
+    ],
+    "notes": "Abbreviated author array follows CVF web metadata; published IEEE order may differ. Do not substitute VisDrone-SOT2019, which does not list Haotian.",
+    "featured": false
+  }
+]

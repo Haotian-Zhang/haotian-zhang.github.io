@@ -1,39 +1,67 @@
-name: Deploy GitHub Pages
+name: Build and deploy homepage
 
 on:
   push:
-    branches:
-      - main  # Set a branch name to trigger deployment
+    branches: [main]
   pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: homepage-${{ github.ref }}
+  cancel-in-progress: false
 
 jobs:
+  build:
+    name: Build and check static site
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v7
+        with:
+          node-version: '24'
+          package-manager-cache: false
+      - name: Build without package dependencies
+        id: build
+        run: node scripts/build.mjs
+      - name: Check pages, links, and publication records
+        run: node scripts/check.mjs
+      - name: Save site for review and deployment
+        if: ${{ always() && steps.build.outcome == 'success' }}
+        uses: actions/upload-artifact@v7
+        with:
+          name: homepage
+          path: public/
+          include-hidden-files: true
+          if-no-files-found: error
+          retention-days: 7
+
   deploy:
-    runs-on: ubuntu-20.04
+    name: Publish to GitHub Pages
+    needs: build
+    if: ${{ github.ref == 'refs/heads/main' && github.event_name != 'pull_request' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
     permissions:
       contents: write
-    concurrency:
-      group: ${{ github.workflow }}-${{ github.ref }}
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v7
         with:
-          submodules: true  # Fetch any Git submodules (true OR recursive)
-          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
-
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
+          persist-credentials: false
+      - uses: actions/download-artifact@v8
         with:
-          hugo-version: 'latest'
-          extended: true
-
-      - name: Build
-        run: hugo --minify
-
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
-        # If you're changing the branch from main, 
-        # also change the `main` in `refs/heads/main` 
-        # below accordingly.
-        if: ${{ github.ref == 'refs/heads/main' }}
+          name: homepage
+          path: public
+      # Keep Settings > Pages configured to deploy from gh-pages / (root).
+      - name: Update the existing publishing branch
+        uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
+          publish_branch: gh-pages
+          publish_dir: public

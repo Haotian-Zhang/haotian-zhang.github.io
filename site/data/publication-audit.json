@@ -1,0 +1,418 @@
+{
+  "checkedOn": "2026-10-14",
+  "catalogCount": 42,
+  "newVerifiedPublication": "cosmos3",
+  "scope": "Public-source authorship and metadata audit. Source files were not modified.",
+  "entries": [
+    {
+      "id": "apple-intelligence",
+      "status": "exclude_unverified_authorship",
+      "action": "Omit from authored-publication list pending confirmation.",
+      "notes": "Haotian Zhang not present in 2024 arXiv author list or full HTML body; the 2025 report explicitly includes him and is verified separately.",
+      "sources": [
+        "https://arxiv.org/abs/2407.21075",
+        "https://arxiv.org/html/2407.21075v1",
+        "https://arxiv.org/abs/2507.13575"
+      ]
+    },
+    {
+      "id": "apple-intelligence-2025",
+      "status": "verified_correct_metadata",
+      "action": "Use verified-publications.json or verified-additional-publications.json",
+      "notes": "Haotian Zhang explicitly in full author list; original submission 2025-07-17, not June 2025.",
+      "sources": [
+        "https://arxiv.org/abs/2507.13575"
+      ]
+    },
+    {
+      "id": "atoken",
+      "status": "exclude_wrong_authorship",
+      "action": "Omit from publication list.",
+      "notes": "Haotian Zhang absent from complete eight-author list. Repository names also corrupted.",
+      "sources": [
+        "https://arxiv.org/abs/2509.14476"
+      ]
+    },
+    {
+      "id": "bert-retrieval",
+      "status": "exclude_namesake",
+      "action": "Omit from publication list.",
+      "notes": "Paper by Waterloo Haotian Zhang with Wei Yang and Jimmy Lin, not UW/Apple/Cosmos researcher.",
+      "sources": [
+        "https://arxiv.org/pdf/1903.10972",
+        "https://zenodo.org/records/3241945"
+      ]
+    },
+    {
+      "id": "bundle-adjustment-icip",
+      "status": "verified_correct_metadata",
+      "action": "Use verified-publications.json or verified-additional-publications.json",
+      "notes": "Correct Yiming Zhang to Yanting Zhang, Jun Yang to Jie Yang. Correct order Yanting Zhang, Jie Yang, Haotian Zhang, Jenq-Neng Hwang.",
+      "sources": [
+        "https://doi.org/10.1109/ICIP.2019.8803563",
+        "https://cmsworkshops.com/ICIP2019/Papers/ViewSession.asp?Sessionid=1071"
+      ]
+    },
+    {
+      "id": "bundle-adjustment-tvt",
+      "status": "verified_correct_metadata",
+      "action": "Use verified-publications.json or verified-additional-publications.json",
+      "notes": "Correct Yiming Zhang to Yanting Zhang, Jun Yang to Jie Yang. Online publication 2019; issue year 2020, IEEE TVT 69(1), 151–162.",
+      "sources": [
+        "https://doi.org/10.1109/TVT.2019.2954876",
+        "https://zhangyanting.github.io/publications/"
+      ]
+    },
+    {
+      "id": "clip-training",
+      "status": "verified_correct_metadata",
+      "action": "Use verified-publications.json or verified-additional-publications.json",
+      "notes": "Use arXiv title VeCLIP: Improving CLIP Training via Visual-enriched Captions; Haotian Bai must be Haoping Bai. ECCV 2024 verified.",
+      "sources": [
+        "https://arxiv.org/abs/2310.07699",
+        "https://machinelearning.apple.com/research/veclip"
+      ]
+    },
+    {
+      "id": "cloc",
+      "status": "verified_correct_metadata",
+      "action": "Use verified-publications.json or verified-additional-publications.json",
+      "notes": "Correct Mark Eichner to Marcin Eichner and restore Yinfei Yang and Zhe Gan. ICML 2025; submitted 2024-10-03.",
+      "sources": [
+        "https://arxiv.org/abs/2410.02746",
+        "https://machinelearning.apple.com/research/contrastive-localized"
+      ]
+    },
+    {
+      "id": "cosmos",
+      "status": "exclude_wrong_authorship",
+      "action": "Replace with new cosmos3 record; preserve old route only as redirect if appropriate.",
+      "notes": "Original 2025 Cosmos paper author list does not include Haotian Zhang. Cosmos 3 in June 2026 does.",
+      "sources": [
+        "https://arxiv.org/abs/2501.03575",
+        "https://arxiv.org/abs/2606.02800"
+      ]
+    },
+    {
+      "id": "cvpr2021-matching",
+      "status": "exclude_namesake",
+      "action": "Omit unless author confirms Megvii collaboration.",
+      "notes": "Explicit Megvii-3D report; same namesake. Repository contains multiple corrupted coauthor names.",
+      "sources": [
+        "https://arxiv.org/abs/2108.04453",
+        "https://arxiv.org/pdf/2108.04453"
+      ]
+    },
+    {
+      "id": "data-curation",
+      "status": "verified_withdrawn_submission",
+      "action": "Omit from publication catalog by default; retain internally or mark explicitly as withdrawn submission if requested.",
+      "notes": "OpenReview lists Vivek Ramanujan, Haotian Zhang, Yinfei Yang, Ali Farhadi, Alexander T Toshev, Ludwig Schmidt, Jonathon Shlens, Vaishaal Shankar. ICLR 2024 Conference Withdrawn Submission, submitted 2023-09-22. Do not present as accepted ICLR paper or invent arXiv ID.",
+      "sources": [
+        "https://openreview.net/forum?id=cj4J7aaKQp",
+        "https://openreview.net/search?content=authors&group=all&sort=cdate%3Adesc&source=forum&term=~Vivek_Ramanujan1"
+      ]
+    },
+    {
+      "id": "deceptive-prompts",
+      "status": "verified_correct_metadata",
+      "action": "Use verified-publications.json or verified-additional-publications.json",
+      "notes": "NeurIPS Workshop 2024, not main-conference NeurIPS 2024.",
+      "sources": [
+        "https://arxiv.org/abs/2402.13220",
+        "https://machinelearning.apple.com/research/how-easy"
+      ]
+    },
+    {
+      "id": "dior",
+      "status": "verified_correct_metadata",
+      "action": "Use verified-publications.json or verified-additional-publications.json",
+      "notes": "Repository URL 2110.02985 is a dark-matter physics paper. Replace with CVF link. Venue is WACV Workshops 2022.",
+      "sources": [
+        "https://openaccess.thecvf.com/content/WACV2022W/RWS/html/Cai_DIOR_DIstill_Observations_to_Representations_for_Multi-Object_Tracking_and_Segmentation_WACVW_2022_paper.html"
+      ]
+    },
+    {
+      "id": "ec-dit",
+      "status": "exclude_wrong_authorship",
+      "action": "Omit from publication list.",
+      "notes": "Haotian Zhang absent from complete eight-author list. First author is Haotian Sun, a different person.",
+      "sources": [
+        "https://arxiv.org/abs/2410.02098"
+      ]
+    },
+    {
+      "id": "eye_drone",
+      "status": "verified_correct_metadata",
+      "action": "Use verified-publications.json or verified-additional-publications.json",
+      "notes": "Verified ACM Multimedia 2019; retain all four authors, including Zhichao Lei.",
+      "sources": [
+        "https://arxiv.org/abs/1910.08259"
+      ]
+    },
+    {
+      "id": "ferret",
+      "status": "verified_correct_metadata",
+      "action": "Use verified-publications.json or verified-additional-publications.json",
+      "notes": "Repository author order matches arXiv; Apple page uses a different version. ICLR 2024 verified.",
+      "sources": [
+        "https://arxiv.org/abs/2310.07704",
+        "https://machinelearning.apple.com/updates/apple-at-iclr-2024"
+      ]
+    },
+    {
+      "id": "ferret-ui",
+      "status": "verified_correct_metadata",
+      "action": "Use verified-publications.json or verified-additional-publications.json",
+      "notes": "Correct full author names from arXiv; ECCV 2024 confirmed.",
+      "sources": [
+        "https://arxiv.org/abs/2404.05719",
+        "https://machinelearning.apple.com/research/ferretui-mobile"
+      ]
+    },
+    {
+      "id": "ferret-ui-2",
+      "status": "verified_correct_metadata",
+      "action": "Use verified-publications.json or verified-additional-publications.json",
+      "notes": "Correct Di Feng, Xiujun Li, Mohana Prasad Sathya Moorthy and full author list; submitted 2024-10-24, ICLR 2025.",
+      "sources": [
+        "https://arxiv.org/abs/2410.18967",
+        "https://machinelearning.apple.com/research/ferret-ui-2"
+      ]
+    },
+    {
+      "id": "ferret-ui-lite",
+      "status": "verified_correct_metadata",
+      "action": "Use verified-publications.json or verified-additional-publications.json",
+      "notes": "Correct Zhen Yang, Zi-Yi Dou, Di Feng, Omar Attia and full author list; arXiv 2025-09-30. Apple page was posted Feb 2026.",
+      "sources": [
+        "https://arxiv.org/abs/2509.26539",
+        "https://machinelearning.apple.com/research/ferret-ui"
+      ]
+    },
+    {
+      "id": "ferret-v2",
+      "status": "verified_correct_metadata",
+      "action": "Use verified-publications.json or verified-additional-publications.json",
+      "notes": "Submission date 2024-04-11. Fix garbled abstract text ('the097'). COLM 2024 verified.",
+      "sources": [
+        "https://arxiv.org/abs/2404.07973",
+        "https://machinelearning.apple.com/research/ferretv2"
+      ]
+    },
+    {
+      "id": "glip",
+      "status": "verified_correct_metadata",
+      "action": "Use verified-publications.json or verified-additional-publications.json",
+      "notes": "Verified CVPR 2022; best paper finalist confirmed by official NVIDIA bio.",
+      "sources": [
+        "https://arxiv.org/abs/2112.03857",
+        "https://research.nvidia.com/person/haotian-zhang"
+      ]
+    },
+    {
+      "id": "glipv2",
+      "status": "verified_correct_metadata",
+      "action": "Use verified-publications.json or verified-additional-publications.json",
+      "notes": "Verified NeurIPS 2022 and author order.",
+      "sources": [
+        "https://arxiv.org/abs/2206.05836"
+      ]
+    },
+    {
+      "id": "graphene",
+      "status": "verified_correct_metadata",
+      "action": "Optional earlier-work entry; not in ready-to-use 30-paper data set.",
+      "notes": "Correct Meng Tang to Min Tang. Authors Haotian Zhang, Min Tang, Jun-fa Mao. ACES-China 2017, IEEE document 8051934. Identity corroborated in supplied homepage CV.",
+      "sources": [
+        "https://ieeexplore.ieee.org/document/8051934",
+        "https://haotian-zhang.github.io/uploads/resume.pdf",
+        "https://aces-society.org/search.php?year=2586"
+      ]
+    },
+    {
+      "id": "hvps",
+      "status": "verified_correct_metadata",
+      "action": "Use verified-publications.json or verified-additional-publications.json",
+      "notes": "Correct Zhongyu Jiang, Jie Mei, Cheng-Yen Yang, Kwang-Ju Kim, Pyong-Kun Kim; use primary workshop PDF.",
+      "sources": [
+        "https://jay-ipl.github.io/BMTT2021_Track1_MOT.pdf"
+      ]
+    },
+    {
+      "id": "ia-mot",
+      "status": "verified_correct_metadata",
+      "action": "Use verified-publications.json or verified-additional-publications.json",
+      "notes": "Verified correct UW identity and full author list; add arXiv 2006.13458.",
+      "sources": [
+        "https://arxiv.org/abs/2006.13458",
+        "https://motchallenge.net/workshops/bmtt2020/papers/IA-MOT.pdf"
+      ]
+    },
+    {
+      "id": "improve-cot",
+      "status": "verified_correct_metadata",
+      "action": "Use verified-publications.json or verified-additional-publications.json",
+      "notes": "Correct full authors and ACL 2025 venue.",
+      "sources": [
+        "https://arxiv.org/abs/2410.16198",
+        "https://machinelearning.apple.com/research/chain-of-thought"
+      ]
+    },
+    {
+      "id": "lifts",
+      "status": "verified_correct_metadata",
+      "action": "Use verified-publications.json or verified-additional-publications.json",
+      "notes": "Correct Honggang Ji to Haorui Ji; primary workshop PDF says second place, so do not copy CV first-place claim without clarification.",
+      "sources": [
+        "https://motchallenge.net/workshops/bmtt2020/papers/LIFTS.pdf"
+      ]
+    },
+    {
+      "id": "manzano",
+      "status": "verified_correct_metadata",
+      "action": "Use verified-publications.json or verified-additional-publications.json",
+      "notes": "Full 27-author list required; original submission 2025-09-19, ICLR 2026. Repository date April 2025 predates publication.",
+      "sources": [
+        "https://arxiv.org/abs/2509.16197",
+        "https://machinelearning.apple.com/research/manzano"
+      ]
+    },
+    {
+      "id": "megloc",
+      "status": "exclude_namesake",
+      "action": "Omit unless author confirms Megvii collaboration.",
+      "notes": "All authors identified as Megvii 3D in primary PDF; same Megvii namesake coauthor cluster as TransMVSNet. Repo Chao Wang and Xiangyue Liu also disagree with primary authors.",
+      "sources": [
+        "https://arxiv.org/pdf/2111.13063"
+      ]
+    },
+    {
+      "id": "mm-ego",
+      "status": "verified_correct_metadata",
+      "action": "Use verified-publications.json or verified-additional-publications.json",
+      "notes": "Latest arXiv title adds 'for Video QA' and author list includes Yanghao Li. ICLR 2025.",
+      "sources": [
+        "https://arxiv.org/abs/2410.07177",
+        "https://machinelearning.apple.com/research/mm-ego"
+      ]
+    },
+    {
+      "id": "mm1",
+      "status": "verified_correct_metadata",
+      "action": "Use verified-publications.json or verified-additional-publications.json",
+      "notes": "Use arXiv author order for arXiv link; correct Anton Belber to Anton Belyi. Apple page and conference versions have different lists.",
+      "sources": [
+        "https://arxiv.org/abs/2403.09611",
+        "https://zhegan27.github.io/"
+      ]
+    },
+    {
+      "id": "mm1_5",
+      "status": "verified_correct_metadata",
+      "action": "Use verified-publications.json or verified-additional-publications.json",
+      "notes": "Full author list and ICLR 2025 verified. Submission was 2024-09-30.",
+      "sources": [
+        "https://arxiv.org/abs/2409.20566",
+        "https://machinelearning.apple.com/research/mm15-methods-analysis-insights"
+      ]
+    },
+    {
+      "id": "mono3d-vehicles",
+      "status": "verified_correct_metadata",
+      "action": "Use verified-publications.json or verified-additional-publications.json",
+      "notes": "Correct Haorui Ji, Aotian Zheng, Ren-Hung Hwang. Proper order has Jenq-Neng Hwang before Ren-Hung Hwang.",
+      "sources": [
+        "https://openaccess.thecvf.com/content/ICCV2021W/AVVision/papers/Zhang_Monocular_3D_Localization_of_Vehicles_in_Road_Scenes_ICCVW_2021_paper.pdf"
+      ]
+    },
+    {
+      "id": "revisit-caption",
+      "status": "verified_correct_metadata",
+      "action": "Use verified-publications.json or verified-additional-publications.json",
+      "notes": "Correct Juan Lao Tebar and Wenze Hu in proper order and restore full authors. ICLR 2025; submitted 2024-10-03.",
+      "sources": [
+        "https://arxiv.org/abs/2410.02740",
+        "https://machinelearning.apple.com/research/large-scale-image-caption"
+      ]
+    },
+    {
+      "id": "rod2021",
+      "status": "verified_correct_metadata",
+      "action": "Use verified-publications.json or verified-additional-publications.json",
+      "notes": "Correct Gaoang Wang, Hui Liu, Kwang-Ju Kim, Zhongyu Jiang and full authors from official challenge website.",
+      "sources": [
+        "https://doi.org/10.1145/3460426.3463658",
+        "https://www.cruwdataset.org/rod2021"
+      ]
+    },
+    {
+      "id": "tnt",
+      "status": "verified_correct_metadata",
+      "action": "Use verified-publications.json or verified-additional-publications.json",
+      "notes": "Verified ACM Multimedia 2019; original arXiv submission November 2018.",
+      "sources": [
+        "https://arxiv.org/abs/1811.07258",
+        "https://dl.acm.org/doi/abs/10.1145/3343031.3350853"
+      ]
+    },
+    {
+      "id": "transmvsnet",
+      "status": "exclude_namesake",
+      "action": "Omit unless author confirms Megvii collaboration.",
+      "notes": "Haotian Zhang is affiliated with Megvii in the paper; no public connection to supplied UW/Apple identity. Different coauthor cluster. Repository also misspells Xiao Liu as Xiaoyu Liu.",
+      "sources": [
+        "https://arxiv.org/abs/2111.14600",
+        "https://github.com/megvii-research/TransMVSNet"
+      ]
+    },
+    {
+      "id": "u3d-molts",
+      "status": "verified_correct_metadata",
+      "action": "Use verified-publications.json or verified-additional-publications.json",
+      "notes": "Use full authors from primary workshop PDF; correct Zhongyu Jiang, Cheng-Yen Yang, Jie Mei, Kwang-Ju Kim and Pyong-Kun Kim.",
+      "sources": [
+        "https://jay-ipl.github.io/BMTT2021_Track1_KITTI.pdf",
+        "https://yangchris11.github.io/publications/"
+      ]
+    },
+    {
+      "id": "uda-vlm",
+      "status": "verified_correct_metadata",
+      "action": "Use verified-publications.json or verified-additional-publications.json",
+      "notes": "Repository URL 2307.16395 is a different paper. Replace with WACV 2024 CVF URL; correct Haoping Bai and Chen-Nee Chuah.",
+      "sources": [
+        "https://openaccess.thecvf.com/content/WACV2024/html/Lai_Empowering_Unsupervised_Domain_Adaptation_With_Large-Scale_Pre-Trained_Vision-Language_Models_WACV_2024_paper.html"
+      ]
+    },
+    {
+      "id": "video-inpainting",
+      "status": "exclude_namesake",
+      "action": "Omit from publication list.",
+      "notes": "Stanford Haotian Zhang's paper; explicitly listed on cs.stanford.edu/~haotianz homepage.",
+      "sources": [
+        "https://cs.stanford.edu/~haotianz/",
+        "https://arxiv.org/abs/1909.07957"
+      ]
+    },
+    {
+      "id": "visdrone-mot",
+      "status": "verified_correct_metadata",
+      "action": "Optional earlier-work entry; not in ready-to-use 30-paper data set.",
+      "notes": "Correct UW Haotian Zhang explicitly credited in appendix A.10 and author list. Can show first six authors followed by et al.; do not invent shortened position for Haotian. ICCV Workshops 2019.",
+      "sources": [
+        "https://openaccess.thecvf.com/content_ICCVW_2019/html/VISDrone/Wen_VisDrone-MOT2019_The_Vision_Meets_Drone_Multiple_Object_Tracking_Challenge_Results_ICCVW_2019_paper.html",
+        "https://openaccess.thecvf.com/content_ICCVW_2019/papers/VISDrone/Wen_VisDrone-MOT2019_The_Vision_Meets_Drone_Multiple_Object_Tracking_Challenge_Results_ICCVW_2019_paper.pdf"
+      ]
+    },
+    {
+      "id": "visdrone-sot",
+      "status": "exclude_wrong_authorship",
+      "action": "Omit from publication list.",
+      "notes": "Haotian Zhang absent from full primary PDF author list. The separate MOT challenge report includes him.",
+      "sources": [
+        "https://openaccess.thecvf.com/content_ICCVW_2019/papers/VISDrone/Du_VisDrone-SOT2019_The_Vision_Meets_Drone_Single_Object_Tracking_Challenge_Results_ICCVW_2019_paper.pdf"
+      ]
+    }
+  ]
+}
