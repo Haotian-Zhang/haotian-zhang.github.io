@@ -377,7 +377,7 @@
     "summary": "Unifying object detection and phrase grounding enables transferable, open-vocabulary visual recognition.",
     "paper": "https://arxiv.org/abs/2112.03857",
     "code": "https://github.com/microsoft/GLIP",
-    "project": "https://www.microsoft.com/en-us/research/project/project-florence-vl/articles/object-detection-in-the-wild-via-grounded-language-image-pre-training/",
+    "project": "https://www.microsoft.com/en-us/research/articles/object-detection-in-the-wild-via-grounded-language-image-pre-training/",
     "topic": "Grounding",
     "sources": [
       "https://arxiv.org/abs/2112.03857",
