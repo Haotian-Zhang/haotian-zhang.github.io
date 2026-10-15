@@ -1,9 +1,12 @@
 import { readFile, writeFile, mkdir, cp, readdir, access, rm } from 'node:fs/promises';
 import path from 'node:path';
+import { createHash } from 'node:crypto';
 import { fileURLToPath } from 'node:url';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const out = path.join(root, 'public');
+// A content version makes repeat visits pick up the newest stylesheet immediately.
+const styleVersion = createHash('sha256').update(await readFile(path.join(root, 'site/assets/style.css'))).digest('hex').slice(0,12);
 const profile = JSON.parse(await readFile(path.join(root, 'site/data/profile.json'), 'utf8'));
 const publications = JSON.parse(await readFile(path.join(root, 'site/data/publications.json'), 'utf8'));
 const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -33,7 +36,7 @@ function layout({ title, description, pathname='/', body, active='', noindex=fal
 <title>${esc(title)}</title><meta name="description" content="${esc(description)}"><meta name="theme-color" content="#fcfbf8">
 <link rel="canonical" href="${esc(url(pathname))}"><link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
 <meta property="og:type" content="website"><meta property="og:site_name" content="Haotian Zhang"><meta property="og:title" content="${esc(title)}"><meta property="og:description" content="${esc(description)}"><meta property="og:url" content="${esc(url(pathname))}"><meta property="og:image" content="${esc(url('/assets/portrait.jpg'))}"><meta name="twitter:card" content="summary">
-${noindex?'<meta name="robots" content="noindex">':''}<link rel="preload" href="/assets/fonts/instrument-serif-regular.woff2" as="font" type="font/woff2" crossorigin><link rel="preload" href="/assets/fonts/manrope-latin.woff2" as="font" type="font/woff2" crossorigin><link rel="stylesheet" href="/assets/style.css"><script src="/assets/site.js" defer></script>
+${noindex?'<meta name="robots" content="noindex">':''}<link rel="preload" href="/assets/fonts/instrument-serif-regular.woff2" as="font" type="font/woff2" crossorigin><link rel="preload" href="/assets/fonts/manrope-latin.woff2" as="font" type="font/woff2" crossorigin><link rel="stylesheet" href="/assets/style.css?v=${styleVersion}"><script src="/assets/site.js" defer></script>
 <script type="application/ld+json">${JSON.stringify(schema||person).replace(/</g,'\\u003c')}</script></head>
 <body><a class="skip-link" href="#main">Skip to content</a><div class="container">
 <header class="site-header"><a class="wordmark" href="/" aria-label="Haotian Zhang, home"><span class="monogram" aria-hidden="true">HZ</span><span>Haotian Zhang</span></a><nav aria-label="Main navigation"><a href="/#about"${active==='about'?' aria-current="page"':''}>About</a><a href="/publication/"${active==='research'?' aria-current="page"':''}>Research</a><a href="/#experience">Experience</a><a class="nav-contact" href="/#contact">Contact</a></nav></header>
