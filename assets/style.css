@@ -81,13 +81,53 @@ h2{font:normal 29px/1.25 var(--serif);letter-spacing:-.025em;margin-bottom:0}
 .career-item h3 a{color:var(--ink)}
 .career-item p{font-size:12px;line-height:1.7;color:var(--muted);margin-bottom:3px}
 .career-item .date{font-size:11px;color:#707983;letter-spacing:.01em}
-.service{border-top:1px solid var(--line);padding:23px 0 0;margin-top:6px;font-size:13px;display:grid;grid-template-columns:120px 1fr;gap:18px}
-.service h2{font-size:22px}
-.service p{color:var(--muted);margin:0}
-.contact{display:flex;justify-content:space-between;align-items:center;gap:30px;border-top:1px solid var(--line);margin-top:47px;padding:32px 0}
-.contact h2{font-size:25px;margin-bottom:5px}
-.contact p{font-size:12px;color:var(--muted);margin:0}
-.contact>a{font-size:13px}
+.academic-service{margin-top:12px;padding-top:37px;border-top:1px solid var(--line)}
+.service-scope{font-size:11px;color:var(--muted)}
+.service-grid{display:grid;grid-template-columns:.85fr 1.15fr;gap:49px;margin-top:29px}
+.academic-service h3{font-size:13px;font-weight:600;letter-spacing:.015em;margin:0 0 17px}
+.chair-list{margin:0}
+.chair-row{padding:0 0 16px}
+.chair-row+.chair-row{padding-top:14px;border-top:1px solid var(--line)}
+.chair-row dt{display:flex;justify-content:space-between;align-items:baseline;gap:20px;font-size:16px;font-weight:600;line-height:1.4}
+.service-year{font-size:12px;font-weight:400;color:var(--muted);font-variant-numeric:tabular-nums;letter-spacing:.025em}
+.chair-row dd{font-size:12px;color:var(--muted);margin:5px 0 0;line-height:1.6}
+.review-group{border-left:1px solid var(--line);padding-left:38px}
+.review-venues{display:flex;flex-wrap:wrap;gap:10px 23px;list-style:none;margin:0 0 16px;padding:0;font-size:16px;line-height:1.65;font-weight:600;color:var(--ink)}
+.review-additional{font-size:12px;color:var(--muted);margin:0 0 11px;line-height:1.8}
+.review-journals{font-size:12px;color:var(--muted);line-height:1.7;margin:0}
+.review-journals>span{font-size:10px;letter-spacing:.07em;text-transform:uppercase;margin-right:10px;color:var(--ink)}
+.workshop-group{border-top:1px solid var(--line);padding-top:23px;margin-top:12px}
+.academic-service .workshop-group h3{margin-bottom:6px}
+.workshop-list{margin:0;padding:0;list-style:none}
+.workshop-list li{display:grid;grid-template-columns:59px minmax(0,1fr) 235px;gap:17px;align-items:baseline;padding:13px 0;font-size:13px;border-bottom:1px solid #edf0f1}
+.workshop-list li:last-child{border-bottom:0}
+.workshop-list a{font-weight:500}
+.workshop-list a>span{font-size:11px;margin-left:4px}
+.workshop-role{font-size:12px;color:var(--muted);text-align:right}
+.workshop-role strong{font-weight:500;color:var(--ink)}
+.honors-section{padding-top:33px;border-top:1px solid var(--line);margin-top:31px}
+.honors-list{list-style:none;margin:26px 0 0;padding:0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr))}
+.honors-list>li{padding:0 27px;position:relative}
+.honors-list>li:first-child{padding-left:0}
+.honors-list>li:last-child{padding-right:0}
+.honors-list>li+li{border-left:1px solid var(--line)}
+.honor-year{font-size:11px;letter-spacing:.05em;color:var(--blue)}
+.honors-list h3{font-size:14px;font-weight:600;line-height:1.5;margin:8px 0 5px}
+.honors-list h3 a{color:var(--ink)}
+.honor-venue{font-size:12px;color:var(--muted);margin:0}
+.honor-detail{font-size:11px;color:var(--muted);line-height:1.7;margin:8px 0 0}
+.contact-panel{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:65px;align-items:center;background:#eef3f7;border:1px solid #dce5eb;border-radius:4px;margin:44px 0 32px;padding:34px 37px}
+.contact-copy .eyebrow{font-size:9px;letter-spacing:.12em;color:var(--blue);margin:0 0 10px}
+.contact-copy h2{font-size:31px;line-height:1.25;margin:0 0 13px}
+.contact-copy>p:last-child{font-size:13px;line-height:1.8;max-width:490px;color:#556471;margin:0}
+.contact-actions{display:flex;flex-direction:column;align-items:flex-start;gap:11px}
+.contact-button{display:flex;align-items:center;justify-content:space-between;gap:43px;min-height:44px;padding:10px 17px;background:var(--blue);border:1px solid var(--blue);border-radius:3px;color:white;font-size:13px;font-weight:500;transition:background .15s ease}
+.contact-button:hover{background:#1d466d;text-decoration:none}
+.contact-button>span{font-size:15px}
+.contact-address{font-size:12px;color:#37566f;overflow-wrap:anywhere}
+.contact-profiles{display:flex;flex-wrap:wrap;gap:18px;font-size:11px;padding-top:3px}
+@media(max-width:800px){.service-grid{gap:30px}.review-group{padding-left:27px}.review-venues{font-size:14px;gap:8px 17px}.workshop-list li{grid-template-columns:45px minmax(0,1fr) 185px;gap:12px}.workshop-role{font-size:11px}.honors-list>li{padding-inline:18px}.contact-panel{padding:28px;gap:29px}}
+@media(max-width:600px){.academic-service{padding-top:29px;margin-top:6px}.academic-service>.section-heading{flex-direction:column;gap:7px}.service-scope{font-size:10px}.service-grid{grid-template-columns:1fr;gap:23px;margin-top:25px}.review-group{border-left:0;border-top:1px solid var(--line);padding:23px 0 0}.academic-service h3{font-size:12px;margin-bottom:15px}.chair-row dt{font-size:15px}.chair-row:last-child{padding-bottom:0}.review-venues{font-size:15px;gap:8px 23px}.review-additional,.review-journals{font-size:11px}.workshop-group{margin-top:24px;padding-top:23px}.workshop-list li{grid-template-columns:38px minmax(0,1fr);gap:2px 13px;padding:14px 0;font-size:12px}.workshop-role{grid-column:2;text-align:left;font-size:11px}.service-year{font-size:11px}.honors-section{margin-top:26px;padding-top:28px}.honors-list{grid-template-columns:1fr;margin-top:21px}.honors-list>li,.honors-list>li:first-child,.honors-list>li:last-child{padding:16px 0}.honors-list>li:first-child{padding-top:0}.honors-list>li+li{border-left:0;border-top:1px solid var(--line)}.honors-list h3{font-size:14px;margin-top:4px}.honor-venue{font-size:11px}.honor-detail{margin-top:4px}.contact-panel{grid-template-columns:1fr;gap:25px;padding:25px 22px;margin:29px 0 27px}.contact-copy h2{font-size:28px}.contact-copy>p:last-child{font-size:12px}.contact-copy .eyebrow{font-size:9px}.contact-actions{gap:12px}.contact-button{font-size:12px;min-height:44px;min-width:178px}.contact-address{font-size:11px}.contact-profiles{font-size:11px}}
 .site-footer{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;border-top:1px solid var(--line);padding:22px 0 30px;font-size:10px;color:var(--muted)}
 .site-footer a{color:var(--muted)}
 .page-header{padding:58px 0 27px}
@@ -124,3 +164,5 @@ h2{font:normal 29px/1.25 var(--serif);letter-spacing:-.025em;margin-bottom:0}
 /* Keep research labels aligned when topics wrap. */
 .focus-label{white-space:nowrap;font-size:10px}
 @media(max-width:600px){.focus-topics{display:grid;grid-template-columns:1fr 1fr;gap:3px 12px}.focus-topics span+span:before{content:none}}
+
+@media(max-width:600px){.nav-service{display:none}}
