@@ -1,0 +1,82 @@
+[
+  {
+    "file": "cosmos3.png",
+    "paper": "Cosmos 3: Omnimodal World Models for Physical AI",
+    "source_page": "https://research.nvidia.com/labs/cosmos-lab/cosmos3/",
+    "source_image": "https://arxiv.org/html/2606.02800v1/tikz_cosmos_platform.png",
+    "figure": "Figure 2: Cosmos 3 platform and post-training applications",
+    "note": "Unmodified figure from the author paper linked by the official NVIDIA project page.",
+    "retrieved": "2026-10-14",
+    "bytes": 40575
+  },
+  {
+    "file": "manzano.jpg",
+    "paper": "MANZANO: A Simple and Scalable Unified Multimodal Model with a Hybrid Vision Tokenizer",
+    "source_page": "https://machinelearning.apple.com/research/manzano",
+    "source_image": "https://arxiv.org/html/2509.16197v1/teaser_right.png",
+    "figure": "Figure 1: Qualitative text-to-image generation comparison",
+    "note": "Author paper linked by Apple. Resized to at most 1200 pixels and JPEG-encoded; content unchanged.",
+    "retrieved": "2026-10-14",
+    "bytes": 357719
+  },
+  {
+    "file": "mm15.jpg",
+    "paper": "MM1.5: Methods, Analysis & Insights from Multimodal LLM Fine-tuning",
+    "source_page": "https://machinelearning.apple.com/research/mm15-methods-analysis-insights",
+    "source_image": "https://arxiv.org/html/2409.20566v1/model_new_no_point_sampler.png",
+    "figure": "Figure 1: Model architecture overview",
+    "note": "Author paper linked by Apple. Resized to at most 1200 pixels and JPEG-encoded; content unchanged.",
+    "retrieved": "2026-10-14",
+    "bytes": 206180
+  },
+  {
+    "file": "ferret-v2.jpg",
+    "paper": "Ferret-v2: An Improved Baseline for Referring and Grounding with Large Language Models",
+    "source_page": "https://machinelearning.apple.com/research/ferretv2",
+    "source_image": "https://mlr.cdn-apple.com/media/fig1_89060b7a60.jpg",
+    "figure": "Figure 1: Fine-grained referring and grounding examples",
+    "note": "Unmodified figure served by the official Apple research page.",
+    "retrieved": "2026-10-14",
+    "bytes": 231099
+  },
+  {
+    "file": "ferret-ui.jpg",
+    "paper": "Ferret-UI: Grounded Mobile UI Understanding with Multimodal LLMs",
+    "source_page": "https://github.com/apple-aiml-research/ml-ferret/tree/main/ferretui",
+    "source_image": "https://raw.githubusercontent.com/apple-aiml-research/ml-ferret/main/ferretui/figs/task_example.png",
+    "figure": "Task overview and annotated mobile UI example",
+    "note": "Official Apple research repository. Resized to at most 1200 pixels and JPEG-encoded; content unchanged.",
+    "retrieved": "2026-10-14",
+    "bytes": 341685
+  },
+  {
+    "file": "glipv2.jpg",
+    "paper": "GLIPv2: Unifying Localization and Vision-Language Understanding",
+    "source_page": "https://www.microsoft.com/en-us/research/articles/object-detection-in-the-wild-via-grounded-language-image-pre-training/",
+    "source_image": "https://www.microsoft.com/en-us/research/wp-content/uploads/2022/06/GLIPv2_tasks_Fig6-1024x634.jpg",
+    "figure": "Figure 6: GLIPv2 task overview",
+    "note": "Unmodified figure served by the official Microsoft Research article.",
+    "retrieved": "2026-10-14",
+    "bytes": 129839
+  },
+  {
+    "file": "ferret.jpg",
+    "paper": "FERRET: Refer and Ground Anything Anywhere at Any Granularity",
+    "source_page": "https://github.com/apple-aiml-research/ml-ferret",
+    "source_image": "https://raw.githubusercontent.com/apple-aiml-research/ml-ferret/main/figs/ferret_fig_diagram_v2.png",
+    "figure": "Model architecture and region representation overview",
+    "note": "Official Apple research repository. Resized to at most 1200 pixels and JPEG-encoded; content unchanged.",
+    "retrieved": "2026-10-14",
+    "bytes": 155733
+  },
+  {
+    "file": "glip.jpg",
+    "paper": "GLIP: Grounded Language-Image Pre-training",
+    "source_page": "https://www.microsoft.com/en-us/research/articles/object-detection-in-the-wild-via-grounded-language-image-pre-training/",
+    "source_image": "https://www.microsoft.com/en-us/research/wp-content/uploads/2022/06/GLIP_grounding-predictions_Fig5-1024x485.jpg",
+    "figure": "Figure 5: Grounding predictions, locating entities and phrases with attributes",
+    "note": "Unmodified figure served by the official Microsoft Research article.",
+    "retrieved": "2026-10-14",
+    "bytes": 113611
+  }
+]
