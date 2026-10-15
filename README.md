@@ -24,7 +24,7 @@ python3 -m http.server 8765 --directory public
 
 Open `http://localhost:8765`. Serve the generated `public/` directory, since the site uses root-relative URLs. Do not open `index.html` directly from the filesystem.
 
-All pages, publication details, and citations are static HTML/files. JavaScript only enhances the archive with search and filters. Instrument Serif and Manrope are self-hosted, with their OFL licenses in `site/assets/fonts/`. There are no third-party font requests, trackers, or runtime API dependencies.
+All pages, publication details, and citations are static HTML/files. JavaScript only enhances the archive with search and filters. The site uses classic Georgia headings and system sans-serif text. There are no font downloads, trackers, or runtime API dependencies.
 
 ## GitHub Pages
 
